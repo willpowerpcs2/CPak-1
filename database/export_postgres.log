@@ -1,0 +1,60 @@
+2025-03-29 10:55:12,718 - INFO - Database export started at 2025-03-29 10:55:12.718129
+2025-03-29 10:55:12,719 - INFO - Running pg_dump to export database to .\database_export\cpak_dump.sql
+2025-03-29 10:55:12,722 - ERROR - Error running pg_dump: [WinError 2] The system cannot find the file specified
+2025-03-29 10:55:12,767 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:55:12,775 - INFO - Found 52 tables in the database
+2025-03-29 10:55:12,874 - ERROR - Error exporting table NotBankBillable to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,875 - ERROR - Error exporting table T053000A to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,876 - ERROR - Error exporting table bankbillable to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,876 - ERROR - Error exporting table city names to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,877 - ERROR - Error exporting table city_names to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,877 - ERROR - Error exporting table data table to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,878 - ERROR - Error exporting table data table Without Matching main_table to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,879 - ERROR - Error exporting table data_table to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,880 - ERROR - Error exporting table ink and paper color to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,880 - ERROR - Error exporting table ink_and_paper_color to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,881 - ERROR - Error exporting table main to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,881 - ERROR - Error exporting table main_table to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,882 - ERROR - Error exporting table months to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,883 - ERROR - Error exporting table notbankbillable to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,883 - ERROR - Error exporting table old_data_table_as_of_10_22_95 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,884 - ERROR - Error exporting table old_ink_and_paper_color_as_of_10_22_95 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,885 - ERROR - Error exporting table old_main_as_of_10_22_95 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,886 - ERROR - Error exporting table past due accounts to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,886 - ERROR - Error exporting table qryReport2030 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,887 - ERROR - Error exporting table qryReport3145 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,887 - ERROR - Error exporting table qryReport4689 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,888 - ERROR - Error exporting table qryReport90 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,889 - ERROR - Error exporting table qryReportSeriousFromSmallClaims to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,889 - ERROR - Error exporting table qry_Zone Rollup to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,890 - ERROR - Error exporting table qry_mailing label backup to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,891 - ERROR - Error exporting table reminder merchant query to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,891 - ERROR - Error exporting table reminder_table to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,892 - ERROR - Error exporting table t053000a to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,892 - ERROR - Error exporting table tblOverdueReports2030 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,893 - ERROR - Error exporting table tblOverdueReports2030used to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,894 - ERROR - Error exporting table tblOverdueReports3145 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,894 - ERROR - Error exporting table tblOverdueReports3145used to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,895 - ERROR - Error exporting table tblOverdueReports4689 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,896 - ERROR - Error exporting table tblOverdueReports4689used to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,896 - ERROR - Error exporting table tblOverdueReports90 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,897 - ERROR - Error exporting table tblOverdueReports90SeriousReports to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,897 - ERROR - Error exporting table tblOverdueReports90used to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,898 - ERROR - Error exporting table tbloverduereports2030 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,901 - ERROR - Error exporting table tbloverduereports2030_9_29_97 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,902 - ERROR - Error exporting table tbloverduereports2030used to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,903 - ERROR - Error exporting table tbloverduereports3145 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,904 - ERROR - Error exporting table tbloverduereports3145used to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,904 - ERROR - Error exporting table tbloverduereports4689 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,905 - ERROR - Error exporting table tbloverduereports4689used to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,906 - ERROR - Error exporting table tbloverduereports90 to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,906 - ERROR - Error exporting table tbloverduereports90seriousreports to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,907 - ERROR - Error exporting table tbloverduereports90used to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,907 - ERROR - Error exporting table temp table to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,908 - ERROR - Error exporting table temp_table to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,908 - ERROR - Error exporting table tempdate to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,909 - ERROR - Error exporting table zonecost to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,909 - ERROR - Error exporting table zones to CSV: Query must be a string unless using sqlalchemy.
+2025-03-29 10:55:12,910 - INFO - Exported 0 tables to CSV files
+2025-03-29 10:55:12,910 - INFO - Database export completed at 2025-03-29 10:55:12.910477
+2025-03-29 10:55:12,910 - INFO - Total duration: 0:00:00.192348

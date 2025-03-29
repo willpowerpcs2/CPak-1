@@ -1,0 +1,174 @@
+2025-03-29 11:11:22,776 - INFO - Debug process started at 2025-03-29 11:11:22.776337
+2025-03-29 11:11:22,776 - INFO - Checking PostgreSQL connection...
+2025-03-29 11:11:22,849 - ERROR - Error connecting to PostgreSQL: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2025-03-29 11:11:22,869 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Owner\CPak\database\debug_export.py", line 56, in check_postgres_connection
+    conn = psycopg2.connect(
+        dbname=db_name,
+    ...<3 lines>...
+        port=db_port
+    )
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+
+2025-03-29 11:11:22,869 - INFO - Checking pandas availability...
+2025-03-29 11:11:23,212 - INFO - pandas is available: 2.2.3
+2025-03-29 11:11:23,213 - INFO - Checking pg_dump availability...
+2025-03-29 11:11:23,214 - ERROR - pg_dump command not found. Please ensure PostgreSQL client tools are installed and in your PATH.
+2025-03-29 11:11:23,214 - INFO - Checking output directory: ./database_export
+2025-03-29 11:11:23,215 - INFO - Output directory is writable: ./database_export
+2025-03-29 11:11:23,215 - INFO - Testing table export to CSV...
+2025-03-29 11:11:23,252 - ERROR - Error testing table export: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2025-03-29 11:11:23,253 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Owner\CPak\database\debug_export.py", line 177, in test_export_table
+    conn = psycopg2.connect(
+        dbname=db_name,
+    ...<3 lines>...
+        port=db_port
+    )
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+
+2025-03-29 11:11:23,254 - INFO - Testing pg_dump...
+2025-03-29 11:11:23,254 - INFO - Running test pg_dump command: pg_dump -h localhost -p 5432 -U postgres -d cpak -f ./database_export\test\test_dump.sql --schema-only --no-owner --no-acl
+2025-03-29 11:11:23,258 - ERROR - Error testing pg_dump: [WinError 2] The system cannot find the file specified
+2025-03-29 11:11:23,273 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Owner\CPak\database\debug_export.py", line 256, in test_pg_dump
+    result = subprocess.run(cmd, env=env, capture_output=True, text=True)
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2025-03-29 11:11:48,748 - INFO - Debug process started at 2025-03-29 11:11:48.748279
+2025-03-29 11:11:48,748 - INFO - Checking PostgreSQL connection...
+2025-03-29 11:11:48,823 - INFO - Connected to PostgreSQL: PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-03-29 11:11:48,831 - INFO - Found 52 tables in the database
+2025-03-29 11:11:48,832 - INFO - Sample tables: city_names, data_table, ink_and_paper_color, main_table, months, notbankbillable, old_data_table_as_of_10_22_95, old_ink_and_paper_color_as_of_10_22_95, old_main_as_of_10_22_95, reminder_table
+2025-03-29 11:11:48,832 - INFO - Table city_names has 0 rows
+2025-03-29 11:11:48,833 - INFO - Table data_table has 0 rows
+2025-03-29 11:11:48,834 - INFO - Table ink_and_paper_color has 0 rows
+2025-03-29 11:11:48,834 - INFO - Checking pandas availability...
+2025-03-29 11:11:49,169 - INFO - pandas is available: 2.2.3
+2025-03-29 11:11:49,169 - INFO - Checking pg_dump availability...
+2025-03-29 11:11:49,171 - ERROR - pg_dump command not found. Please ensure PostgreSQL client tools are installed and in your PATH.
+2025-03-29 11:11:49,171 - INFO - Checking output directory: ./database_export
+2025-03-29 11:11:49,172 - INFO - Output directory is writable: ./database_export
+2025-03-29 11:11:49,172 - INFO - Testing table export to CSV...
+2025-03-29 11:11:49,214 - INFO - Testing export with table: city_names
+2025-03-29 11:11:49,219 - ERROR - Error testing table export: Query must be a string unless using sqlalchemy.
+2025-03-29 11:11:49,236 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Owner\CPak\database\debug_export.py", line 209, in test_export_table
+    df = pd.read_sql_query(query, conn)
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 526, in read_sql_query
+    return pandas_sql.read_query(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        sql,
+        ^^^^
+    ...<6 lines>...
+        dtype_backend=dtype_backend,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 2738, in read_query
+    cursor = self.execute(sql, params)
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 2670, in execute
+    raise TypeError("Query must be a string unless using sqlalchemy.")
+TypeError: Query must be a string unless using sqlalchemy.
+
+2025-03-29 11:11:49,236 - INFO - Testing pg_dump...
+2025-03-29 11:11:49,237 - INFO - Running test pg_dump command: pg_dump -h localhost -p 5432 -U postgres -d cpak -f ./database_export\test\test_dump.sql --schema-only --no-owner --no-acl
+2025-03-29 11:11:49,241 - ERROR - Error testing pg_dump: [WinError 2] The system cannot find the file specified
+2025-03-29 11:11:49,242 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Owner\CPak\database\debug_export.py", line 256, in test_pg_dump
+    result = subprocess.run(cmd, env=env, capture_output=True, text=True)
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+2025-03-29 11:23:46,297 - INFO - Debug process started at 2025-03-29 11:23:46.297725
+2025-03-29 11:23:46,298 - INFO - Checking PostgreSQL connection...
+2025-03-29 11:23:46,863 - INFO - Connected to PostgreSQL: PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-03-29 11:23:46,920 - INFO - Found 52 tables in the database
+2025-03-29 11:23:46,920 - INFO - Sample tables: city_names, data_table, ink_and_paper_color, main_table, months, notbankbillable, old_data_table_as_of_10_22_95, old_ink_and_paper_color_as_of_10_22_95, old_main_as_of_10_22_95, reminder_table
+2025-03-29 11:23:46,927 - INFO - Table city_names has 0 rows
+2025-03-29 11:23:46,928 - INFO - Table data_table has 0 rows
+2025-03-29 11:23:46,930 - INFO - Table ink_and_paper_color has 0 rows
+2025-03-29 11:23:46,930 - INFO - Checking pandas availability...
+2025-03-29 11:23:50,775 - INFO - pandas is available: 2.2.3
+2025-03-29 11:23:50,775 - INFO - Checking pg_dump availability...
+2025-03-29 11:23:51,027 - INFO - pg_dump is available: pg_dump (PostgreSQL) 17.4
+2025-03-29 11:23:51,027 - INFO - Checking output directory: ./database_export
+2025-03-29 11:23:51,030 - INFO - Output directory is writable: ./database_export
+2025-03-29 11:23:51,030 - INFO - Testing table export to CSV...
+2025-03-29 11:23:51,091 - INFO - Testing export with table: city_names
+2025-03-29 11:23:51,226 - ERROR - Error testing table export: Query must be a string unless using sqlalchemy.
+2025-03-29 11:23:51,247 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Owner\CPak\database\debug_export.py", line 209, in test_export_table
+    df = pd.read_sql_query(query, conn)
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 526, in read_sql_query
+    return pandas_sql.read_query(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        sql,
+        ^^^^
+    ...<6 lines>...
+        dtype_backend=dtype_backend,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 2738, in read_query
+    cursor = self.execute(sql, params)
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 2670, in execute
+    raise TypeError("Query must be a string unless using sqlalchemy.")
+TypeError: Query must be a string unless using sqlalchemy.
+
+2025-03-29 11:23:51,247 - INFO - Testing pg_dump...
+2025-03-29 11:23:51,248 - INFO - Running test pg_dump command: pg_dump -h localhost -p 5432 -U postgres -d cpak -f ./database_export\test\test_dump.sql --schema-only --no-owner --no-acl
+2025-03-29 11:23:51,554 - INFO - Successfully created test dump at ./database_export\test\test_dump.sql (size: 34399 bytes)
