@@ -20,6 +20,13 @@ app.use(helmet());
 app.use(morgan('dev'));
 
 // Database connection
+console.log('Database connection details:');
+console.log('User:', process.env.DB_USER);
+console.log('Host:', process.env.DB_HOST);
+console.log('Database:', process.env.DB_NAME);
+console.log('Password:', process.env.DB_PASSWORD ? '******' : 'not set');
+console.log('Port:', process.env.DB_PORT);
+
 const pool = new Pool({
   user: process.env.DB_USER || 'postgres',
   host: process.env.DB_HOST || 'localhost',
