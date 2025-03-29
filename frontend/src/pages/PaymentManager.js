@@ -45,9 +45,9 @@ import {
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import DatePickerWrapper from '../components/DatePickerWrapper';
 import axios from 'axios';
 
-// Tab panel component
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -99,14 +99,12 @@ const PaymentManager = () => {
       try {
         setLoading(true);
         
-        // Fetch past due accounts
         const pastDueResponse = await axios.get('/api/tables/past due accounts/data', {
           params: { limit: 1000 }
         });
         setPastDueAccounts(pastDueResponse.data.data);
         setFilteredAccounts(pastDueResponse.data.data);
         
-        // Fetch customers (main_table)
         const customersResponse = await axios.get('/api/tables/main_table/data', {
           params: { limit: 1000 }
         });
@@ -131,13 +129,11 @@ const PaymentManager = () => {
     } else {
       const query = searchQuery.toLowerCase();
       
-      // Filter past due accounts
       const filteredPastDue = pastDueAccounts.filter(account => {
         return account.company_name && account.company_name.toLowerCase().includes(query);
       });
       setFilteredAccounts(filteredPastDue);
       
-      // Filter customers
       const filteredCustomerList = customers.filter(customer => {
         return (
           (customer.company_name && customer.company_name.toLowerCase().includes(query)) ||
@@ -167,11 +163,6 @@ const PaymentManager = () => {
 
   const handlePaymentSubmit = async () => {
     try {
-      // In a real application, this would update the database
-      // For now, we'll just show a success message
-      
-      // Mock API call to update payment
-      /*
       await axios.post('/api/payments', {
         company_name: selectedAccount.company_name,
         amount_paid: paymentAmount,
@@ -179,17 +170,12 @@ const PaymentManager = () => {
         date_check_received: paymentDate,
         balance_due: selectedAccount.balance_due - paymentAmount
       });
-      */
       
-      // Show success message
       setSnackbarMessage(`Payment of $${paymentAmount} recorded for ${selectedAccount.company_name}`);
       setSnackbarSeverity('success');
       setSnackbarOpen(true);
       
-      // Close dialog
       setOpenPaymentDialog(false);
-      
-      // In a real app, we would refresh the data here
     } catch (err) {
       console.error('Error recording payment:', err);
       setSnackbarMessage('Failed to record payment');
@@ -241,23 +227,13 @@ const PaymentManager = () => {
 
   const handleCustomerSubmit = async () => {
     try {
-      // In a real application, this would update the database
-      // For now, we'll just show a success message
-      
-      // Mock API call to save customer
-      /*
       await axios.post('/api/customers', customerFormData);
-      */
       
-      // Show success message
       setSnackbarMessage(`Customer ${customerFormData.company_name} saved successfully`);
       setSnackbarSeverity('success');
       setSnackbarOpen(true);
       
-      // Close dialog
       setOpenCustomerDialog(false);
-      
-      // In a real app, we would refresh the data here
     } catch (err) {
       console.error('Error saving customer:', err);
       setSnackbarMessage('Failed to save customer');
@@ -323,7 +299,6 @@ const PaymentManager = () => {
             </Tabs>
           </Box>
           
-          {/* Past Due Accounts Tab */}
           <TabPanel value={tabValue} index={0}>
             <Box sx={{ mb: 2 }}>
               <Grid container spacing={2} alignItems="center">
@@ -417,7 +392,6 @@ const PaymentManager = () => {
             </TableContainer>
           </TabPanel>
           
-          {/* Customer Management Tab */}
           <TabPanel value={tabValue} index={1}>
             <Box sx={{ mb: 2 }}>
               <Grid container spacing={2} alignItems="center">
@@ -511,7 +485,6 @@ const PaymentManager = () => {
             </TableContainer>
           </TabPanel>
           
-          {/* Reports Tab */}
           <TabPanel value={tabValue} index={2}>
             <Grid container spacing={3}>
               <Grid item xs={12} md={4}>
@@ -562,7 +535,6 @@ const PaymentManager = () => {
           </TabPanel>
         </Paper>
         
-        {/* Payment Dialog */}
         <Dialog open={openPaymentDialog} onClose={handleClosePaymentDialog} maxWidth="sm" fullWidth>
           <DialogTitle>Record Payment</DialogTitle>
           <DialogContent>
@@ -601,11 +573,10 @@ const PaymentManager = () => {
                   />
                 </Grid>
                 <Grid item xs={12}>
-                  <DatePicker
+                  <DatePickerWrapper
                     label="Payment Date"
                     value={paymentDate}
                     onChange={(newDate) => setPaymentDate(newDate)}
-                    renderInput={(params) => <TextField {...params} fullWidth />}
                   />
                 </Grid>
               </Grid>
@@ -624,7 +595,6 @@ const PaymentManager = () => {
           </DialogActions>
         </Dialog>
         
-        {/* Customer Dialog */}
         <Dialog open={openCustomerDialog} onClose={handleCloseCustomerDialog} maxWidth="md" fullWidth>
           <DialogTitle>
             {customerFormData.company_name ? `Edit Customer: ${customerFormData.company_name}` : 'Add New Customer'}
@@ -740,7 +710,6 @@ const PaymentManager = () => {
           </DialogActions>
         </Dialog>
         
-        {/* Snackbar for notifications */}
         <Snackbar
           open={snackbarOpen}
           autoHideDuration={6000}
