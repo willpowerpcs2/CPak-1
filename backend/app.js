@@ -27,11 +27,17 @@ console.log('Database:', process.env.DB_NAME);
 console.log('Password:', process.env.DB_PASSWORD ? '******' : 'not set');
 console.log('Port:', process.env.DB_PORT);
 
+// Remove quotes if they exist in the password
+let dbPassword = process.env.DB_PASSWORD || 'postgres';
+if (dbPassword.startsWith('"') && dbPassword.endsWith('"')) {
+  dbPassword = dbPassword.slice(1, -1);
+}
+
 const pool = new Pool({
   user: process.env.DB_USER || 'postgres',
   host: process.env.DB_HOST || 'localhost',
   database: process.env.DB_NAME || 'cpak',
-  password: process.env.DB_PASSWORD || 'postgres',
+  password: dbPassword,
   port: process.env.DB_PORT || 5432,
 });
 
