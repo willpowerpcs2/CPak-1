@@ -14,6 +14,8 @@ import TableBrowser from './pages/TableBrowser';
 import TableDetail from './pages/TableDetail';
 import Search from './pages/Search';
 import NotFound from './pages/NotFound';
+import PaymentManager from './pages/PaymentManager';
+import ZoneManager from './pages/ZoneManager';
 
 // Create theme
 const theme = createTheme({
@@ -72,6 +74,8 @@ function App() {
               <Route path="/tables" element={<TableBrowser />} />
               <Route path="/tables/:tableName" element={<TableDetail />} />
               <Route path="/search" element={<Search />} />
+              <Route path="/payments" element={<PaymentManager />} />
+              <Route path="/zones" element={<ZoneManager />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Box>

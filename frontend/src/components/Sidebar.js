@@ -11,6 +11,8 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import TableChartIcon from '@mui/icons-material/TableChart';
 import SearchIcon from '@mui/icons-material/Search';
 import StorageIcon from '@mui/icons-material/Storage';
+import PaymentIcon from '@mui/icons-material/Payment';
+import MapIcon from '@mui/icons-material/Map';
 import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 
@@ -117,6 +119,53 @@ const Sidebar = ({ open, toggleDrawer }) => {
             <ListItemText primary="Dashboard" sx={{ opacity: open ? 1 : 0 }} />
           </ListItemButton>
         </ListItem>
+        
+        <ListItem disablePadding sx={{ display: 'block' }}>
+          <ListItemButton
+            sx={{
+              minHeight: 48,
+              justifyContent: open ? 'initial' : 'center',
+              px: 2.5,
+              backgroundColor: location.pathname === '/payments' ? 'rgba(0, 0, 0, 0.08)' : 'transparent',
+            }}
+            onClick={() => handleNavigation('/payments')}
+          >
+            <ListItemIcon
+              sx={{
+                minWidth: 0,
+                mr: open ? 3 : 'auto',
+                justifyContent: 'center',
+              }}
+            >
+              <PaymentIcon />
+            </ListItemIcon>
+            <ListItemText primary="Payment Manager" sx={{ opacity: open ? 1 : 0 }} />
+          </ListItemButton>
+        </ListItem>
+        
+        <ListItem disablePadding sx={{ display: 'block' }}>
+          <ListItemButton
+            sx={{
+              minHeight: 48,
+              justifyContent: open ? 'initial' : 'center',
+              px: 2.5,
+              backgroundColor: location.pathname === '/zones' ? 'rgba(0, 0, 0, 0.08)' : 'transparent',
+            }}
+            onClick={() => handleNavigation('/zones')}
+          >
+            <ListItemIcon
+              sx={{
+                minWidth: 0,
+                mr: open ? 3 : 'auto',
+                justifyContent: 'center',
+              }}
+            >
+              <MapIcon />
+            </ListItemIcon>
+            <ListItemText primary="Zone Manager" sx={{ opacity: open ? 1 : 0 }} />
+          </ListItemButton>
+        </ListItem>
+        
         <ListItem disablePadding sx={{ display: 'block' }}>
           <ListItemButton
             sx={{
