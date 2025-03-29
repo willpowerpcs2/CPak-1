@@ -86,7 +86,7 @@ def check_postgres_connection(db_name, db_user, db_password, db_host, db_port):
             
             # Check row counts for a few tables
             for table in table_names[:3]:  # Check first 3 tables
-                cursor.execute(sql.SQL("SELECT COUNT(*) FROM {}").format(sql.Identifier(table)))
+                cursor.execute(f"SELECT COUNT(*) FROM \"{table}\"")
                 row_count = cursor.fetchone()[0]
                 logger.info(f"Table {table} has {row_count} rows")
         
@@ -205,7 +205,7 @@ def test_export_table(db_name, db_user, db_password, db_host, db_port, output_di
         
         # Export the table
         csv_path = os.path.join(test_dir, f"{test_table}.csv")
-        query = sql.SQL("SELECT * FROM {}").format(sql.Identifier(test_table))
+        query = f"SELECT * FROM \"{test_table}\""
         df = pd.read_sql_query(query, conn)
         df.to_csv(csv_path, index=False)
         
