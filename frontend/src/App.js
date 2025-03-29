@@ -21,6 +21,13 @@ import PastDueBalances from './pages/PastDueBalances';
 import CustomerInquiries from './pages/CustomerInquiries';
 import NewMerchant from './pages/NewMerchant';
 import EditMerchant from './pages/EditMerchant';
+import AccountsForm from './pages/AccountsForm';
+import PrintLabels from './pages/PrintLabels';
+import PastDueReports from './pages/PastDueReports';
+import ReviewDateZone from './pages/ReviewDateZone';
+import ZonePricing from './pages/ZonePricing';
+import SetStatus from './pages/SetStatus';
+import YtdTotals from './pages/YtdTotals';
 
 // Create theme
 const theme = createTheme({
@@ -88,13 +95,13 @@ function App() {
               <Route path="/customer-inquiries" element={<CustomerInquiries />} />
               <Route path="/edit-merchant/:id" element={<EditMerchant />} />
               <Route path="/new-merchant" element={<NewMerchant />} />
-              <Route path="/accounts-form" element={<NotFound />} />
-              <Route path="/print-labels" element={<NotFound />} />
-              <Route path="/past-due-reports" element={<NotFound />} />
-              <Route path="/review-date-zone" element={<NotFound />} />
-              <Route path="/zone-pricing" element={<NotFound />} />
-              <Route path="/set-status" element={<NotFound />} />
-              <Route path="/ytd-totals" element={<NotFound />} />
+              <Route path="/accounts-form" element={<AccountsForm />} />
+              <Route path="/print-labels" element={<PrintLabels />} />
+              <Route path="/past-due-reports" element={<PastDueReports />} />
+              <Route path="/review-date-zone" element={<ReviewDateZone />} />
+              <Route path="/zone-pricing" element={<ZonePricing />} />
+              <Route path="/set-status" element={<SetStatus />} />
+              <Route path="/ytd-totals" element={<YtdTotals />} />
               
               <Route path="*" element={<NotFound />} />
             </Routes>
