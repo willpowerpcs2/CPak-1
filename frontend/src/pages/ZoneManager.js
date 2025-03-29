@@ -42,6 +42,7 @@ import {
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
+import DatePickerWrapper from '../components/DatePickerWrapper';
 import axios from 'axios';
 
 const ZoneManager = () => {
@@ -330,11 +331,11 @@ const ZoneManager = () => {
                   </Typography>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                  <DatePicker
+                  <DatePickerWrapper
                     label="Zoning Date"
                     value={zoningDate}
                     onChange={(newDate) => setZoningDate(newDate)}
-                    renderInput={(params) => <TextField {...params} fullWidth margin="normal" />}
+                    margin="normal"
                   />
                 </Grid>
               </Grid>
