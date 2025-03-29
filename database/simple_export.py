@@ -89,8 +89,8 @@ def export_table_to_csv(conn, table_name, output_dir):
     try:
         csv_path = os.path.join(output_dir, f"{table_name}.csv")
         
-        # Query the table
-        query = sql.SQL("SELECT * FROM {}").format(sql.Identifier(table_name))
+        # Query the table using a string query instead of SQL object
+        query = f"SELECT * FROM \"{table_name}\""
         df = pd.read_sql_query(query, conn)
         
         # Write to CSV

@@ -58,3 +58,63 @@
 2025-03-29 10:55:12,910 - INFO - Exported 0 tables to CSV files
 2025-03-29 10:55:12,910 - INFO - Database export completed at 2025-03-29 10:55:12.910477
 2025-03-29 10:55:12,910 - INFO - Total duration: 0:00:00.192348
+2025-03-29 11:34:51,849 - INFO - Database export started at 2025-03-29 11:34:51.848977
+2025-03-29 11:34:51,849 - INFO - Running pg_dump to export database to ./database_export\cpak_dump.sql
+2025-03-29 11:34:52,235 - INFO - Successfully exported database to ./database_export\cpak_dump.sql
+2025-03-29 11:34:52,446 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 11:34:52,458 - INFO - Found 52 tables in the database
+2025-03-29 11:34:52,471 - INFO - Exported table NotBankBillable to ./database_export\csv\NotBankBillable.csv (25 rows)
+2025-03-29 11:34:52,478 - INFO - Exported table T053000A to ./database_export\csv\T053000A.csv (97 rows)
+2025-03-29 11:34:52,544 - INFO - Exported table bankbillable to ./database_export\csv\bankbillable.csv (4560 rows)
+2025-03-29 11:34:52,551 - INFO - Exported table city names to ./database_export\csv\city names.csv (14 rows)
+2025-03-29 11:34:52,554 - INFO - Exported table city_names to ./database_export\csv\city_names.csv (0 rows)
+2025-03-29 11:34:52,559 - INFO - Exported table data table to ./database_export\csv\data table.csv (0 rows)
+2025-03-29 11:34:52,564 - INFO - Exported table data table Without Matching main_table to ./database_export\csv\data table Without Matching main_table.csv (0 rows)
+2025-03-29 11:34:52,568 - INFO - Exported table data_table to ./database_export\csv\data_table.csv (0 rows)
+2025-03-29 11:34:52,571 - INFO - Exported table ink and paper color to ./database_export\csv\ink and paper color.csv (0 rows)
+2025-03-29 11:34:52,575 - INFO - Exported table ink_and_paper_color to ./database_export\csv\ink_and_paper_color.csv (0 rows)
+2025-03-29 11:34:52,603 - INFO - Exported table main to ./database_export\csv\main.csv (2331 rows)
+2025-03-29 11:34:52,608 - INFO - Exported table main_table to ./database_export\csv\main_table.csv (0 rows)
+2025-03-29 11:34:52,611 - INFO - Exported table months to ./database_export\csv\months.csv (0 rows)
+2025-03-29 11:34:52,615 - INFO - Exported table notbankbillable to ./database_export\csv\notbankbillable.csv (0 rows)
+2025-03-29 11:34:52,619 - INFO - Exported table old_data_table_as_of_10_22_95 to ./database_export\csv\old_data_table_as_of_10_22_95.csv (0 rows)
+2025-03-29 11:34:52,623 - INFO - Exported table old_ink_and_paper_color_as_of_10_22_95 to ./database_export\csv\old_ink_and_paper_color_as_of_10_22_95.csv (0 rows)
+2025-03-29 11:34:52,627 - INFO - Exported table old_main_as_of_10_22_95 to ./database_export\csv\old_main_as_of_10_22_95.csv (0 rows)
+2025-03-29 11:34:52,632 - INFO - Exported table past due accounts to ./database_export\csv\past due accounts.csv (111 rows)
+2025-03-29 11:34:52,637 - INFO - Exported table qryReport2030 to ./database_export\csv\qryReport2030.csv (17 rows)
+2025-03-29 11:34:52,643 - INFO - Exported table qryReport3145 to ./database_export\csv\qryReport3145.csv (24 rows)
+2025-03-29 11:34:52,648 - INFO - Exported table qryReport4689 to ./database_export\csv\qryReport4689.csv (5 rows)
+2025-03-29 11:34:52,653 - INFO - Exported table qryReport90 to ./database_export\csv\qryReport90.csv (41 rows)
+2025-03-29 11:34:52,659 - INFO - Exported table qryReportSeriousFromSmallClaims to ./database_export\csv\qryReportSeriousFromSmallClaims.csv (111 rows)
+2025-03-29 11:34:52,706 - INFO - Exported table qry_Zone Rollup to ./database_export\csv\qry_Zone Rollup.csv (26543 rows)
+2025-03-29 11:34:52,712 - INFO - Exported table qry_mailing label backup to ./database_export\csv\qry_mailing label backup.csv (111 rows)
+2025-03-29 11:34:52,716 - INFO - Exported table reminder merchant query to ./database_export\csv\reminder merchant query.csv (2 rows)
+2025-03-29 11:34:52,719 - INFO - Exported table reminder_table to ./database_export\csv\reminder_table.csv (0 rows)
+2025-03-29 11:34:52,723 - INFO - Exported table t053000a to ./database_export\csv\t053000a.csv (0 rows)
+2025-03-29 11:34:52,728 - INFO - Exported table tblOverdueReports2030 to ./database_export\csv\tblOverdueReports2030.csv (32 rows)
+2025-03-29 11:34:52,733 - INFO - Exported table tblOverdueReports2030used to ./database_export\csv\tblOverdueReports2030used.csv (19 rows)
+2025-03-29 11:34:52,740 - INFO - Exported table tblOverdueReports3145 to ./database_export\csv\tblOverdueReports3145.csv (24 rows)
+2025-03-29 11:34:52,744 - INFO - Exported table tblOverdueReports3145used to ./database_export\csv\tblOverdueReports3145used.csv (17 rows)
+2025-03-29 11:34:52,748 - INFO - Exported table tblOverdueReports4689 to ./database_export\csv\tblOverdueReports4689.csv (12 rows)
+2025-03-29 11:34:52,753 - INFO - Exported table tblOverdueReports4689used to ./database_export\csv\tblOverdueReports4689used.csv (35 rows)
+2025-03-29 11:34:52,757 - INFO - Exported table tblOverdueReports90 to ./database_export\csv\tblOverdueReports90.csv (44 rows)
+2025-03-29 11:34:52,761 - INFO - Exported table tblOverdueReports90SeriousReports to ./database_export\csv\tblOverdueReports90SeriousReports.csv (0 rows)
+2025-03-29 11:34:52,766 - INFO - Exported table tblOverdueReports90used to ./database_export\csv\tblOverdueReports90used.csv (31 rows)
+2025-03-29 11:34:52,770 - INFO - Exported table tbloverduereports2030 to ./database_export\csv\tbloverduereports2030.csv (0 rows)
+2025-03-29 11:34:52,774 - INFO - Exported table tbloverduereports2030_9_29_97 to ./database_export\csv\tbloverduereports2030_9_29_97.csv (0 rows)
+2025-03-29 11:34:52,777 - INFO - Exported table tbloverduereports2030used to ./database_export\csv\tbloverduereports2030used.csv (0 rows)
+2025-03-29 11:34:52,781 - INFO - Exported table tbloverduereports3145 to ./database_export\csv\tbloverduereports3145.csv (0 rows)
+2025-03-29 11:34:52,785 - INFO - Exported table tbloverduereports3145used to ./database_export\csv\tbloverduereports3145used.csv (0 rows)
+2025-03-29 11:34:52,789 - INFO - Exported table tbloverduereports4689 to ./database_export\csv\tbloverduereports4689.csv (0 rows)
+2025-03-29 11:34:52,792 - INFO - Exported table tbloverduereports4689used to ./database_export\csv\tbloverduereports4689used.csv (0 rows)
+2025-03-29 11:34:52,796 - INFO - Exported table tbloverduereports90 to ./database_export\csv\tbloverduereports90.csv (0 rows)
+2025-03-29 11:34:52,799 - INFO - Exported table tbloverduereports90seriousreports to ./database_export\csv\tbloverduereports90seriousreports.csv (0 rows)
+2025-03-29 11:34:52,802 - INFO - Exported table tbloverduereports90used to ./database_export\csv\tbloverduereports90used.csv (0 rows)
+2025-03-29 11:34:52,805 - INFO - Exported table temp table to ./database_export\csv\temp table.csv (0 rows)
+2025-03-29 11:34:52,810 - INFO - Exported table temp_table to ./database_export\csv\temp_table.csv (0 rows)
+2025-03-29 11:34:52,813 - INFO - Exported table tempdate to ./database_export\csv\tempdate.csv (0 rows)
+2025-03-29 11:34:52,816 - INFO - Exported table zonecost to ./database_export\csv\zonecost.csv (0 rows)
+2025-03-29 11:34:52,819 - INFO - Exported table zones to ./database_export\csv\zones.csv (0 rows)
+2025-03-29 11:34:52,820 - INFO - Exported 52 tables to CSV files
+2025-03-29 11:34:52,820 - INFO - Database export completed at 2025-03-29 11:34:52.820237
+2025-03-29 11:34:52,820 - INFO - Total duration: 0:00:00.971260

@@ -172,3 +172,62 @@ TypeError: Query must be a string unless using sqlalchemy.
 2025-03-29 11:23:51,247 - INFO - Testing pg_dump...
 2025-03-29 11:23:51,248 - INFO - Running test pg_dump command: pg_dump -h localhost -p 5432 -U postgres -d cpak -f ./database_export\test\test_dump.sql --schema-only --no-owner --no-acl
 2025-03-29 11:23:51,554 - INFO - Successfully created test dump at ./database_export\test\test_dump.sql (size: 34399 bytes)
+2025-03-29 11:30:53,219 - INFO - Debug process started at 2025-03-29 11:30:53.219092
+2025-03-29 11:30:53,219 - INFO - Checking PostgreSQL connection...
+2025-03-29 11:30:53,327 - INFO - Connected to PostgreSQL: PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-03-29 11:30:53,338 - INFO - Found 52 tables in the database
+2025-03-29 11:30:53,339 - INFO - Sample tables: city_names, data_table, ink_and_paper_color, main_table, months, notbankbillable, old_data_table_as_of_10_22_95, old_ink_and_paper_color_as_of_10_22_95, old_main_as_of_10_22_95, reminder_table
+2025-03-29 11:30:53,340 - INFO - Table city_names has 0 rows
+2025-03-29 11:30:53,341 - INFO - Table data_table has 0 rows
+2025-03-29 11:30:53,342 - INFO - Table ink_and_paper_color has 0 rows
+2025-03-29 11:30:53,342 - INFO - Checking pandas availability...
+2025-03-29 11:30:53,875 - INFO - pandas is available: 2.2.3
+2025-03-29 11:30:53,876 - INFO - Checking pg_dump availability...
+2025-03-29 11:30:53,901 - INFO - pg_dump is available: pg_dump (PostgreSQL) 17.4
+2025-03-29 11:30:53,901 - INFO - Checking output directory: ./database_export
+2025-03-29 11:30:53,902 - INFO - Output directory is writable: ./database_export
+2025-03-29 11:30:53,903 - INFO - Testing table export to CSV...
+2025-03-29 11:30:53,962 - INFO - Testing export with table: city_names
+2025-03-29 11:30:53,968 - ERROR - Error testing table export: Query must be a string unless using sqlalchemy.
+2025-03-29 11:30:53,970 - ERROR - Traceback (most recent call last):
+  File "c:\Users\Owner\CPak\database\debug_export.py", line 209, in test_export_table
+    df = pd.read_sql_query(query, conn)
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 526, in read_sql_query
+    return pandas_sql.read_query(
+           ~~~~~~~~~~~~~~~~~~~~~^
+        sql,
+        ^^^^
+    ...<6 lines>...
+        dtype_backend=dtype_backend,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 2738, in read_query
+    cursor = self.execute(sql, params)
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 2670, in execute
+    raise TypeError("Query must be a string unless using sqlalchemy.")
+TypeError: Query must be a string unless using sqlalchemy.
+
+2025-03-29 11:30:53,971 - INFO - Testing pg_dump...
+2025-03-29 11:30:53,972 - INFO - Running test pg_dump command: pg_dump -h localhost -p 5432 -U postgres -d cpak -f ./database_export\test\test_dump.sql --schema-only --no-owner --no-acl
+2025-03-29 11:30:54,165 - INFO - Successfully created test dump at ./database_export\test\test_dump.sql (size: 34399 bytes)
+2025-03-29 11:32:55,422 - INFO - Debug process started at 2025-03-29 11:32:55.422594
+2025-03-29 11:32:55,422 - INFO - Checking PostgreSQL connection...
+2025-03-29 11:32:56,031 - INFO - Connected to PostgreSQL: PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-03-29 11:32:56,038 - INFO - Found 52 tables in the database
+2025-03-29 11:32:56,039 - INFO - Sample tables: city_names, data_table, ink_and_paper_color, main_table, months, notbankbillable, old_data_table_as_of_10_22_95, old_ink_and_paper_color_as_of_10_22_95, old_main_as_of_10_22_95, reminder_table
+2025-03-29 11:32:56,039 - INFO - Table city_names has 0 rows
+2025-03-29 11:32:56,040 - INFO - Table data_table has 0 rows
+2025-03-29 11:32:56,041 - INFO - Table ink_and_paper_color has 0 rows
+2025-03-29 11:32:56,041 - INFO - Checking pandas availability...
+2025-03-29 11:33:00,080 - INFO - pandas is available: 2.2.3
+2025-03-29 11:33:00,081 - INFO - Checking pg_dump availability...
+2025-03-29 11:33:00,336 - INFO - pg_dump is available: pg_dump (PostgreSQL) 17.4
+2025-03-29 11:33:00,336 - INFO - Checking output directory: ./database_export
+2025-03-29 11:33:00,338 - INFO - Output directory is writable: ./database_export
+2025-03-29 11:33:00,338 - INFO - Testing table export to CSV...
+2025-03-29 11:33:00,389 - INFO - Testing export with table: city_names
+2025-03-29 11:33:00,491 - INFO - Successfully exported test table to ./database_export\test\city_names.csv (size: 11 bytes)
+2025-03-29 11:33:00,492 - INFO - Testing pg_dump...
+2025-03-29 11:33:00,494 - INFO - Running test pg_dump command: pg_dump -h localhost -p 5432 -U postgres -d cpak -f ./database_export\test\test_dump.sql --schema-only --no-owner --no-acl
+2025-03-29 11:33:00,715 - INFO - Successfully created test dump at ./database_export\test\test_dump.sql (size: 34399 bytes)
