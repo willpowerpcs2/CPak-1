@@ -54,6 +54,19 @@ if not exist .env (
     notepad .env
 )
 
+REM Update .env with correct password format
+echo Updating .env with correct password format...
+echo PORT=3001 > .env.tmp
+echo NODE_ENV=development >> .env.tmp
+echo DB_USER=postgres >> .env.tmp
+echo DB_PASSWORD="ITPower2021#$" >> .env.tmp
+echo DB_HOST=localhost >> .env.tmp
+echo DB_PORT=5432 >> .env.tmp
+echo DB_NAME=cpak >> .env.tmp
+echo JWT_SECRET=your_jwt_secret >> .env.tmp
+echo JWT_EXPIRES_IN=1d >> .env.tmp
+move /y .env.tmp .env
+
 REM Install backend dependencies
 echo Installing backend dependencies...
 call npm install
@@ -70,6 +83,16 @@ echo.
 REM Setup frontend
 echo Setting up frontend...
 cd ../frontend
+
+REM Fix frontend configuration
+echo Fixing frontend configuration...
+node fix_frontend.js
+if %ERRORLEVEL% NEQ 0 (
+    echo ERROR: Failed to fix frontend configuration.
+    cd ..
+    pause
+    exit /b 1
+)
 
 REM Install frontend dependencies
 echo Installing frontend dependencies...
