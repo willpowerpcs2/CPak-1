@@ -1,0 +1,253 @@
+{
+  "tables_count": 25,
+  "queries_count": 40,
+  "tables": [
+    {
+      "name": "city names",
+      "row_count": 14,
+      "columns_count": 1
+    },
+    {
+      "name": "data table",
+      "row_count": 26543,
+      "columns_count": 52
+    },
+    {
+      "name": "ink and paper color",
+      "row_count": 4063,
+      "columns_count": 6
+    },
+    {
+      "name": "main_table",
+      "row_count": 3265,
+      "columns_count": 18
+    },
+    {
+      "name": "months",
+      "row_count": 12,
+      "columns_count": 2
+    },
+    {
+      "name": "NotBankBillable",
+      "row_count": 25,
+      "columns_count": 26
+    },
+    {
+      "name": "old_data table as of 10/22/95",
+      "row_count": 526,
+      "columns_count": 42
+    },
+    {
+      "name": "old_ink and paper color as of 10/22/95",
+      "row_count": 628,
+      "columns_count": 6
+    },
+    {
+      "name": "old_main as of 10/22/95",
+      "row_count": 240,
+      "columns_count": 12
+    },
+    {
+      "name": "reminder_table",
+      "row_count": 12,
+      "columns_count": 12
+    },
+    {
+      "name": "T053000A",
+      "row_count": 97,
+      "columns_count": 8
+    },
+    {
+      "name": "tblOverdueReports2030",
+      "row_count": 32,
+      "columns_count": 23
+    },
+    {
+      "name": "tblOverdueReports2030_9/29/97",
+      "row_count": 16,
+      "columns_count": 20
+    },
+    {
+      "name": "tblOverdueReports2030used",
+      "row_count": 19,
+      "columns_count": 20
+    },
+    {
+      "name": "tblOverdueReports3145",
+      "row_count": 24,
+      "columns_count": 23
+    },
+    {
+      "name": "tblOverdueReports3145used",
+      "row_count": 17,
+      "columns_count": 20
+    },
+    {
+      "name": "tblOverdueReports4689",
+      "row_count": 12,
+      "columns_count": 23
+    },
+    {
+      "name": "tblOverdueReports4689used",
+      "row_count": 35,
+      "columns_count": 20
+    },
+    {
+      "name": "tblOverdueReports90",
+      "row_count": 44,
+      "columns_count": 24
+    },
+    {
+      "name": "tblOverdueReports90SeriousReports",
+      "row_count": 0,
+      "columns_count": 21
+    },
+    {
+      "name": "tblOverdueReports90used",
+      "row_count": 31,
+      "columns_count": 21
+    },
+    {
+      "name": "temp table",
+      "row_count": 2,
+      "columns_count": 4
+    },
+    {
+      "name": "tempdate",
+      "row_count": 1,
+      "columns_count": 2
+    },
+    {
+      "name": "zonecost",
+      "row_count": 13,
+      "columns_count": 1
+    },
+    {
+      "name": "zones",
+      "row_count": 17,
+      "columns_count": 2
+    }
+  ],
+  "queries": [
+    {
+      "name": "bankbillable"
+    },
+    {
+      "name": "data table Without Matching main_table"
+    },
+    {
+      "name": "lookup city name"
+    },
+    {
+      "name": "main"
+    },
+    {
+      "name": "past due accounts"
+    },
+    {
+      "name": "qry_CollectionsProcess"
+    },
+    {
+      "name": "qry_CollectionsProcess Query"
+    },
+    {
+      "name": "qry_mailing label backup"
+    },
+    {
+      "name": "qry_mailing labels balance >0 and date > 20 days (all)"
+    },
+    {
+      "name": "qry_mailing labels balance>0 and date > 20 days"
+    },
+    {
+      "name": "qry_Zone Rollup"
+    },
+    {
+      "name": "qryPrintEnvelope"
+    },
+    {
+      "name": "qryReport2030"
+    },
+    {
+      "name": "qryReport3145"
+    },
+    {
+      "name": "qryReport4689"
+    },
+    {
+      "name": "qryReport90"
+    },
+    {
+      "name": "qryReportSeriousFromSmallClaims"
+    },
+    {
+      "name": "qrySubformAfterOpen"
+    },
+    {
+      "name": "Query2"
+    },
+    {
+      "name": "reminder merchant query"
+    },
+    {
+      "name": "sfq1"
+    },
+    {
+      "name": "subform query"
+    },
+    {
+      "name": "test"
+    },
+    {
+      "name": "test subform query"
+    },
+    {
+      "name": "zone 1"
+    },
+    {
+      "name": "zone 10"
+    },
+    {
+      "name": "zone 11"
+    },
+    {
+      "name": "zone 12"
+    },
+    {
+      "name": "zone 13"
+    },
+    {
+      "name": "zone 14"
+    },
+    {
+      "name": "zone 15"
+    },
+    {
+      "name": "zone 16"
+    },
+    {
+      "name": "zone 2"
+    },
+    {
+      "name": "zone 3"
+    },
+    {
+      "name": "zone 4"
+    },
+    {
+      "name": "zone 5"
+    },
+    {
+      "name": "zone 6"
+    },
+    {
+      "name": "zone 7"
+    },
+    {
+      "name": "zone 8"
+    },
+    {
+      "name": "zone 9"
+    }
+  ]
+}

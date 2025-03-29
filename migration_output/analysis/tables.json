@@ -1,0 +1,2606 @@
+[
+  {
+    "name": "city names",
+    "columns": [
+      {
+        "name": "city name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      }
+    ],
+    "row_count": 14
+  },
+  {
+    "name": "data table",
+    "columns": [
+      {
+        "name": "Company name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "phone number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Cost for this month",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Check number 1",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 1",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 1",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Check number 2",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 2",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 2",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Check number 3",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 3",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 3",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Check number 4",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 4",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 4",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Amount Paid",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 16",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 1",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 2",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 3",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 4",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 5",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 6",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 7",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 8",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 9",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 10",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 11",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 12",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 13",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 14",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 15",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 16",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "sent",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "DateSent",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      }
+    ],
+    "row_count": 26543
+  },
+  {
+    "name": "ink and paper color",
+    "columns": [
+      {
+        "name": "Paper color",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Ink color",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "zone number",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "zone date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "company name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "phone number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      }
+    ],
+    "row_count": 4063
+  },
+  {
+    "name": "main_table",
+    "columns": [
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "reminder merchant",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "fax number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "phone number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "toggle button",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "type of business",
+        "type": "str",
+        "size": 100,
+        "nullable": true
+      },
+      {
+        "name": "active",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "sent",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "CustomerID",
+        "type": "int",
+        "size": 10,
+        "nullable": false
+      },
+      {
+        "name": "Do not Bank Bill",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "Bank Help Notice",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "sentdate",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      }
+    ],
+    "row_count": 3265
+  },
+  {
+    "name": "months",
+    "columns": [
+      {
+        "name": "Month Number",
+        "type": "int",
+        "size": 3,
+        "nullable": true
+      },
+      {
+        "name": "Month Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      }
+    ],
+    "row_count": 12
+  },
+  {
+    "name": "NotBankBillable",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Do not Bank Bill",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "nName",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Serious",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "row_count": 25
+  },
+  {
+    "name": "old_data table as of 10/22/95",
+    "columns": [
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Company name",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Cost for this month",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Check number 1",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 1",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 1",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check number 2",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 2",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 2",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check number 3",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 3",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 3",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check number 4",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 4",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 4",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Amount Paid",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 1",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 2",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 3",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 4",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 5",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 6",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 7",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 8",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 9",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 10",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 11",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 12",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      }
+    ],
+    "row_count": 526
+  },
+  {
+    "name": "old_ink and paper color as of 10/22/95",
+    "columns": [
+      {
+        "name": "Paper color",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Ink color",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "zone number",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "zone date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "company name",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "id",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "row_count": 628
+  },
+  {
+    "name": "old_main as of 10/22/95",
+    "columns": [
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "reminder merchant",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Name",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "fax number",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "phone number",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "toggle button",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "type of business",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "row_count": 240
+  },
+  {
+    "name": "reminder_table",
+    "columns": [
+      {
+        "name": "company_name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "phone_number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "contact_name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "type_of_business",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "zone",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "month_date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "information",
+        "type": "str",
+        "size": 1073741823,
+        "nullable": true
+      },
+      {
+        "name": "city",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "state",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "zip",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "street",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "key",
+        "type": "int",
+        "size": 10,
+        "nullable": false
+      }
+    ],
+    "row_count": 12
+  },
+  {
+    "name": "T053000A",
+    "columns": [
+      {
+        "name": "Field1",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field2",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Field4",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field5",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field6",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field7",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field8",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "row_count": 97
+  },
+  {
+    "name": "tblOverdueReports2030",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "row_count": 32
+  },
+  {
+    "name": "tblOverdueReports2030_9/29/97",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "row_count": 16
+  },
+  {
+    "name": "tblOverdueReports2030used",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "row_count": 19
+  },
+  {
+    "name": "tblOverdueReports3145",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "row_count": 24
+  },
+  {
+    "name": "tblOverdueReports3145used",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "row_count": 17
+  },
+  {
+    "name": "tblOverdueReports4689",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "row_count": 12
+  },
+  {
+    "name": "tblOverdueReports4689used",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "row_count": 35
+  },
+  {
+    "name": "tblOverdueReports90",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Serious",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "row_count": 44
+  },
+  {
+    "name": "tblOverdueReports90SeriousReports",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Serious",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "row_count": 0
+  },
+  {
+    "name": "tblOverdueReports90used",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Serious",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "row_count": 31
+  },
+  {
+    "name": "temp table",
+    "columns": [
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": false
+      },
+      {
+        "name": "Month",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Year",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      }
+    ],
+    "row_count": 2
+  },
+  {
+    "name": "tempdate",
+    "columns": [
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": false
+      },
+      {
+        "name": "tempdate",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      }
+    ],
+    "row_count": 1
+  },
+  {
+    "name": "zonecost",
+    "columns": [
+      {
+        "name": "zonecost",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "row_count": 13
+  },
+  {
+    "name": "zones",
+    "columns": [
+      {
+        "name": "zone",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "order",
+        "type": "int",
+        "size": 5,
+        "nullable": true
+      }
+    ],
+    "row_count": 17
+  }
+]

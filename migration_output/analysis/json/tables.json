@@ -1,0 +1,7172 @@
+[
+  {
+    "name": "city names",
+    "columns": [
+      {
+        "name": "city name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "city name"
+        ],
+        "unique": true
+      }
+    ],
+    "row_count": 14,
+    "sample_data": [
+      {
+        "city name": "Albany"
+      },
+      {
+        "city name": "Balston Lake"
+      },
+      {
+        "city name": "Burnt Hills"
+      },
+      {
+        "city name": "Clifton Park"
+      },
+      {
+        "city name": "Delmar"
+      },
+      {
+        "city name": "East Greenbush"
+      },
+      {
+        "city name": "Glenmont"
+      },
+      {
+        "city name": "Guilderland"
+      },
+      {
+        "city name": "Lathem"
+      },
+      {
+        "city name": "Renselear"
+      }
+    ]
+  },
+  {
+    "name": "data table",
+    "columns": [
+      {
+        "name": "Company name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "phone number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Cost for this month",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Check number 1",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 1",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 1",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Check number 2",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 2",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 2",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Check number 3",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 3",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 3",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Check number 4",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 4",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 4",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Amount Paid",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 16",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 1",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 2",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 3",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 4",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 5",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 6",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 7",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 8",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 9",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 10",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 11",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 12",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 13",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 14",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 15",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 16",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "sent",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "DateSent",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "Company name",
+          "phone number",
+          "zoning date"
+        ],
+        "unique": true
+      },
+      {
+        "name": "Company name",
+        "columns": [
+          "Company name"
+        ],
+        "unique": false
+      },
+      {
+        "name": "phone number",
+        "columns": [
+          "phone number"
+        ],
+        "unique": false
+      },
+      {
+        "name": "Reference",
+        "columns": [
+          "Company name",
+          "phone number"
+        ],
+        "unique": false
+      },
+      {
+        "name": "selected",
+        "columns": [
+          "sent"
+        ],
+        "unique": false
+      }
+    ],
+    "row_count": 26543,
+    "sample_data": [
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2022-04-19 00:00:00",
+        "Cost for this month": 650.0,
+        "Balance due": 0.0,
+        "Check number 1": "4044",
+        "Check amount 1": 650.0,
+        "Date check was received 1": "2022-05-23 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 650.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": -1,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 650.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2022-05-23 00:00:00",
+        "Cost for this month": 650.0,
+        "Balance due": 0.0,
+        "Check number 1": "4050",
+        "Check amount 1": 650.0,
+        "Date check was received 1": "2022-06-06 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 650.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": -1,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 0.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 650.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2022-07-06 00:00:00",
+        "Cost for this month": 475.0,
+        "Balance due": 0.0,
+        "Check number 1": "4082",
+        "Check amount 1": 475.0,
+        "Date check was received 1": "2022-09-13 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 475.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": -1,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 475.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2023-04-19 00:00:00",
+        "Cost for this month": 695.0,
+        "Balance due": 0.0,
+        "Check number 1": "4177",
+        "Check amount 1": 695.0,
+        "Date check was received 1": "2023-05-12 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 695.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": -1,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 695.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2023-06-02 00:00:00",
+        "Cost for this month": 695.0,
+        "Balance due": 0.0,
+        "Check number 1": "4187",
+        "Check amount 1": 695.0,
+        "Date check was received 1": "2023-06-15 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 695.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": -1,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 0.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 695.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2023-08-02 00:00:00",
+        "Cost for this month": 695.0,
+        "Balance due": 0.0,
+        "Check number 1": "4209",
+        "Check amount 1": 695.0,
+        "Date check was received 1": "2023-08-09 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 695.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": -1,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 695.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2023-09-12 00:00:00",
+        "Cost for this month": 695.0,
+        "Balance due": 0.0,
+        "Check number 1": "4225",
+        "Check amount 1": 695.0,
+        "Date check was received 1": "2023-09-25 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 695.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": -1,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 0.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 695.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2023-11-06 00:00:00",
+        "Cost for this month": 695.0,
+        "Balance due": 0.0,
+        "Check number 1": "4245",
+        "Check amount 1": 695.0,
+        "Date check was received 1": "2023-11-30 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 695.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": -1,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 695.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2024-01-26 00:00:00",
+        "Cost for this month": 475.0,
+        "Balance due": 0.0,
+        "Check number 1": "4262",
+        "Check amount 1": 475.0,
+        "Date check was received 1": "2024-02-07 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 475.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": -1,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 475.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      },
+      {
+        "Company name": "16 HANDLES",
+        "phone number": "9820659",
+        "zoning date": "2024-03-25 00:00:00",
+        "Cost for this month": 695.0,
+        "Balance due": 0.0,
+        "Check number 1": "4287",
+        "Check amount 1": 695.0,
+        "Date check was received 1": "2024-04-10 00:00:00",
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 695.0,
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": -1,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Zone 16": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 0.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 695.0,
+        "Zone Cost 13": 0.0,
+        "Zone Cost 14": 0.0,
+        "Zone Cost 15": 0.0,
+        "Zone Cost 16": 0.0,
+        "sent": false,
+        "DateSent": null
+      }
+    ]
+  },
+  {
+    "name": "ink and paper color",
+    "columns": [
+      {
+        "name": "Paper color",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Ink color",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "zone number",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "zone date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "company name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "phone number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "zone number",
+          "zone date",
+          "company name",
+          "phone number"
+        ],
+        "unique": true
+      },
+      {
+        "name": "company name",
+        "columns": [
+          "company name"
+        ],
+        "unique": false
+      },
+      {
+        "name": "Reference1",
+        "columns": [
+          "company name",
+          "phone number"
+        ],
+        "unique": false
+      }
+    ],
+    "row_count": 4063,
+    "sample_data": [
+      {
+        "Paper color": "GOLDEN",
+        "Ink color": "RED/BLK",
+        "zone number": "1",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "CAPITAL CHOICE TV",
+        "phone number": "8997501"
+      },
+      {
+        "Paper color": "IVORY",
+        "Ink color": "R/GR",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "BURNT HILLS BOOKS",
+        "phone number": "3997004"
+      },
+      {
+        "Paper color": "CANARY",
+        "Ink color": "R/BLK",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "CAPITAL CHOICE TV",
+        "phone number": "8997501"
+      },
+      {
+        "Paper color": "PINK",
+        "Ink color": "RHOD/TEAL",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "COAKLEY HOME TEXTILES",
+        "phone number": "3828371"
+      },
+      {
+        "Paper color": "WHITE",
+        "Ink color": "RHOD/TEAL CARD",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "DARLING LIMO",
+        "phone number": "3722508"
+      },
+      {
+        "Paper color": "CANARY",
+        "Ink color": "R/BLUE",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "DINO S PIZZA",
+        "phone number": "3991622"
+      },
+      {
+        "Paper color": "BUFF",
+        "Ink color": "BORD/BLK",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "DR. JUDD LESSER",
+        "phone number": "3740385"
+      },
+      {
+        "Paper color": "PINK",
+        "Ink color": "TEAL/RHOD",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "FRANK GALLO FLORIST",
+        "phone number": "3466171"
+      },
+      {
+        "Paper color": "CHERRY",
+        "Ink color": "BLUE",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "GAIL KING ELECTROLYSIS",
+        "phone number": "3821591"
+      },
+      {
+        "Paper color": "GOLDEN",
+        "Ink color": "BORD/BLK",
+        "zone number": "1",
+        "zone date": "1995-03-01 00:00:00",
+        "company name": "GENE S CLEANING",
+        "phone number": "3712462"
+      }
+    ]
+  },
+  {
+    "name": "main_table",
+    "columns": [
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "reminder merchant",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "fax number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "phone number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "toggle button",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "type of business",
+        "type": "str",
+        "size": 100,
+        "nullable": true
+      },
+      {
+        "name": "active",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "sent",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "CustomerID",
+        "type": "int",
+        "size": 10,
+        "nullable": false
+      },
+      {
+        "name": "Do not Bank Bill",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "Bank Help Notice",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "sentdate",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "Company Name",
+          "phone number"
+        ],
+        "unique": true
+      },
+      {
+        "name": "Company Name",
+        "columns": [
+          "Company Name"
+        ],
+        "unique": false
+      },
+      {
+        "name": "CustomerID",
+        "columns": [
+          "CustomerID"
+        ],
+        "unique": false
+      },
+      {
+        "name": "selected",
+        "columns": [
+          "sent"
+        ],
+        "unique": false
+      }
+    ],
+    "row_count": 3265,
+    "sample_data": [
+      {
+        "Company Name": "16 HANDLES",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "MELISSA",
+        "Street Address": "5 SOUTHSIDE DR",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "9820659",
+        "toggle button": null,
+        "type of business": "ICE CREAM",
+        "active": true,
+        "sent": false,
+        "CustomerID": 3238,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": null
+      },
+      {
+        "Company Name": "16 HANDLES 7",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "PETE",
+        "Street Address": "380 RT. 9W",
+        "City": "Glenmont",
+        "State": "NY",
+        "Zip code": "12077",
+        "fax number": null,
+        "phone number": "4346000",
+        "toggle button": null,
+        "type of business": "ICE CRREAM",
+        "active": true,
+        "sent": false,
+        "CustomerID": 3440,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": null
+      },
+      {
+        "Company Name": "168 BLISS NAILS",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "TINA/LEE",
+        "Street Address": "1505 RT. 9",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "3710481",
+        "toggle button": null,
+        "type of business": "NAILS",
+        "active": true,
+        "sent": false,
+        "CustomerID": 3348,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": null
+      },
+      {
+        "Company Name": "20 MALL",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "WALTER",
+        "Street Address": "2080 WESTERN AVE",
+        "City": "Guilderland",
+        "State": "NY",
+        "Zip code": "12084",
+        "fax number": null,
+        "phone number": "8695030",
+        "toggle button": null,
+        "type of business": "MALL",
+        "active": false,
+        "sent": true,
+        "CustomerID": 1021,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": "2002-05-08 08:21:14"
+      },
+      {
+        "Company Name": "21st CENTURY FITNESS",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "JOE",
+        "Street Address": "4852 ST.HWY 30",
+        "City": "AMSTERDAM",
+        "State": "NY",
+        "Zip code": "12010",
+        "fax number": null,
+        "phone number": "8435530",
+        "toggle button": null,
+        "type of business": "FITNESS",
+        "active": false,
+        "sent": true,
+        "CustomerID": 957,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": "2001-10-02 22:20:08"
+      },
+      {
+        "Company Name": "3 BROTHERS PIZZERIA",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "MADASSAR MUNIR",
+        "Street Address": "1615 BROADWAY",
+        "City": "Watervliet",
+        "State": "NY",
+        "Zip code": "12189",
+        "fax number": null,
+        "phone number": "2383448",
+        "toggle button": null,
+        "type of business": "FOOD",
+        "active": true,
+        "sent": false,
+        "CustomerID": 3271,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": null
+      },
+      {
+        "Company Name": "40 OAK GRILL",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "MAUREEN",
+        "Street Address": "925 RT. 9",
+        "City": "QUEENSBURY",
+        "State": "NY",
+        "Zip code": "12804",
+        "fax number": null,
+        "phone number": "7410331",
+        "toggle button": null,
+        "type of business": "FOOD",
+        "active": true,
+        "sent": false,
+        "CustomerID": 3192,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": null
+      },
+      {
+        "Company Name": "42 DEGREES",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "ROBIN",
+        "Street Address": "206 GLEN ST",
+        "City": "GLENS FALLS",
+        "State": "NY",
+        "Zip code": "12801",
+        "fax number": null,
+        "phone number": "2230403",
+        "toggle button": null,
+        "type of business": "SMOKING ACCES.",
+        "active": true,
+        "sent": false,
+        "CustomerID": 3145,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": null
+      },
+      {
+        "Company Name": "4U NAIL PLACE",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "ACCTS. PAYABLE",
+        "Street Address": "362 NORTHERN BLVD",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12204",
+        "fax number": null,
+        "phone number": "4363458",
+        "toggle button": null,
+        "type of business": "NAILS",
+        "active": true,
+        "sent": false,
+        "CustomerID": 2305,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": null
+      },
+      {
+        "Company Name": "518 DONUTS",
+        "ID": null,
+        "reminder merchant": null,
+        "Name": "SAM",
+        "Street Address": "7 SOUTHSIDE DR",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "9336688",
+        "toggle button": null,
+        "type of business": "DONUTS",
+        "active": true,
+        "sent": false,
+        "CustomerID": 3221,
+        "Do not Bank Bill": false,
+        "Bank Help Notice": false,
+        "sentdate": null
+      }
+    ]
+  },
+  {
+    "name": "months",
+    "columns": [
+      {
+        "name": "Month Number",
+        "type": "int",
+        "size": 3,
+        "nullable": true
+      },
+      {
+        "name": "Month Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "Month Number",
+          "Month Name"
+        ],
+        "unique": true
+      }
+    ],
+    "row_count": 12,
+    "sample_data": [
+      {
+        "Month Number": 1,
+        "Month Name": "January"
+      },
+      {
+        "Month Number": 2,
+        "Month Name": "Febuary"
+      },
+      {
+        "Month Number": 3,
+        "Month Name": "March"
+      },
+      {
+        "Month Number": 4,
+        "Month Name": "April"
+      },
+      {
+        "Month Number": 5,
+        "Month Name": "May"
+      },
+      {
+        "Month Number": 6,
+        "Month Name": "June"
+      },
+      {
+        "Month Number": 7,
+        "Month Name": "July"
+      },
+      {
+        "Month Number": 8,
+        "Month Name": "August"
+      },
+      {
+        "Month Number": 9,
+        "Month Name": "September"
+      },
+      {
+        "Month Number": 10,
+        "Month Name": "October"
+      }
+    ]
+  },
+  {
+    "name": "NotBankBillable",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Do not Bank Bill",
+        "type": "bool",
+        "size": 1,
+        "nullable": false
+      },
+      {
+        "name": "nName",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Serious",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 25,
+    "sample_data": [
+      {
+        "Balance due": 695.0,
+        "zoning date": "2024-11-08 00:00:00",
+        "Company Name": "ROTTERDAM HEAT",
+        "Street Address": "3101 THOMPSON ST.",
+        "City": "SCHENECTADY",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "JOANNE",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-09-06 00:00:00",
+        "Company Name": "SORRENTINOS DELI",
+        "Street Address": "241 GROOMS RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "RICH",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 475.0,
+        "zoning date": "2024-09-26 00:00:00",
+        "Company Name": "SORRENTINOS DELI",
+        "Street Address": "241 GROOMS RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": -1,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "RICH",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-09-30 00:00:00",
+        "Company Name": "SORRENTINOS DELI",
+        "Street Address": "241 GROOMS RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": -1,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "RICH",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-10-24 00:00:00",
+        "Company Name": "SORRENTINOS DELI",
+        "Street Address": "241 GROOMS RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": -1,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "RICH",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-11-22 00:00:00",
+        "Company Name": "SORRENTINOS DELI",
+        "Street Address": "241 GROOMS RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": -1,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "RICH",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 500.0,
+        "zoning date": "2024-10-15 00:00:00",
+        "Company Name": "UNIVERSITY WINE & LIQUOR",
+        "Street Address": "1225 WESTERN AVE",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12203",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "ACCTS. PAYABLE",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-07-26 00:00:00",
+        "Company Name": "MIDAS AUTO SERVICE",
+        "Street Address": "1101 MONROE ST.",
+        "City": "TOLEDO",
+        "State": "OH",
+        "Zip code": "43604",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "KEVIN MEIDT",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-09-03 00:00:00",
+        "Company Name": "MIDAS AUTO SERVICE",
+        "Street Address": "1101 MONROE ST.",
+        "City": "TOLEDO",
+        "State": "OH",
+        "Zip code": "43604",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "KEVIN MEIDT",
+        "Serious": "",
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-09-06 00:00:00",
+        "Company Name": "MIDAS AUTO SERVICE",
+        "Street Address": "1101 MONROE ST.",
+        "City": "TOLEDO",
+        "State": "OH",
+        "Zip code": "43604",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Do not Bank Bill": true,
+        "nName": "KEVIN MEIDT",
+        "Serious": "",
+        "Selected": "-1"
+      }
+    ]
+  },
+  {
+    "name": "old_data table as of 10/22/95",
+    "columns": [
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Company name",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Cost for this month",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Check number 1",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 1",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 1",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check number 2",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 2",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 2",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check number 3",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 3",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 3",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check number 4",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Check amount 4",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Date check was received 4",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Amount Paid",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 1",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 2",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 3",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 4",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 5",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 6",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 7",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 8",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 9",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 10",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 11",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "Zone Cost 12",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 526,
+    "sample_data": [
+      {
+        "ID": 98,
+        "Company name": "DARLING LIMO",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 475.0,
+        "Balance due": 0.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 475.0,
+        "Date check was received 1": null,
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 475.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": 0,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 475.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 99,
+        "Company name": "ROTTERDAM HEAT",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 990.0,
+        "Balance due": 0.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 485.0,
+        "Date check was received 1": null,
+        "Check number 2": "N/A",
+        "Check amount 2": 505.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 990.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": -1,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 485.0,
+        "Zone Cost 5": 505.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 100,
+        "Company name": "CURTIS ELECTROLYSIS",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 1460.0,
+        "Balance due": 0.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 520.0,
+        "Date check was received 1": null,
+        "Check number 2": "N/A",
+        "Check amount 2": 470.0,
+        "Date check was received 2": null,
+        "Check number 3": "N/A",
+        "Check amount 3": 470.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 1460.0,
+        "Zone 1": 0,
+        "Zone 2": -1,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": 1,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 470.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 520.0,
+        "Zone Cost 5": 470.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 102,
+        "Company name": "MILLER PAINT",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 475.0,
+        "Balance due": 0.0,
+        "Check number 1": "6983",
+        "Check amount 1": 475.0,
+        "Date check was received 1": null,
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 475.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": 0,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 475.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 103,
+        "Company name": "FRAME & ART SHOP",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 485.0,
+        "Balance due": 0.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 485.0,
+        "Date check was received 1": null,
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 485.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": 0,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 485.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 105,
+        "Company name": "CABINET DOCTOR",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 475.0,
+        "Balance due": 275.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 200.0,
+        "Date check was received 1": null,
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 200.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": 0,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 475.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 106,
+        "Company name": "QVS DRY CLEANING",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 510.0,
+        "Balance due": 0.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 510.0,
+        "Date check was received 1": null,
+        "Check number 2": null,
+        "Check amount 2": 0.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 510.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": 0,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 510.0,
+        "Zone Cost 5": 0.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 107,
+        "Company name": "GENE'S CLEANING",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 990.0,
+        "Balance due": 0.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 485.0,
+        "Date check was received 1": null,
+        "Check number 2": "N/A",
+        "Check amount 2": 505.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 990.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": -1,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 485.0,
+        "Zone Cost 5": 505.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 108,
+        "Company name": "M & W WINDOW",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 1705.0,
+        "Balance due": 0.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 555.0,
+        "Date check was received 1": null,
+        "Check number 2": "N/A",
+        "Check amount 2": 575.0,
+        "Date check was received 2": null,
+        "Check number 3": "N/A",
+        "Check amount 3": 575.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 1705.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": -1,
+        "Zone 6": -1,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 555.0,
+        "Zone Cost 5": 575.0,
+        "Zone Cost 6": 575.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      },
+      {
+        "ID": 109,
+        "Company name": "MR. SUBB",
+        "zoning date": "1995-01-01 00:00:00",
+        "Cost for this month": 1040.0,
+        "Balance due": 0.0,
+        "Check number 1": "N/A",
+        "Check amount 1": 510.0,
+        "Date check was received 1": null,
+        "Check number 2": "NA",
+        "Check amount 2": 530.0,
+        "Date check was received 2": null,
+        "Check number 3": null,
+        "Check amount 3": 0.0,
+        "Date check was received 3": null,
+        "Check number 4": null,
+        "Check amount 4": 0.0,
+        "Date check was received 4": null,
+        "Amount Paid": 1040.0,
+        "Zone 1": 0,
+        "Zone 2": 0,
+        "Zone 3": 0,
+        "Zone 4": 1,
+        "Zone 5": -1,
+        "Zone 6": 0,
+        "Zone 7": 0,
+        "Zone 8": 0,
+        "Zone 9": 0,
+        "Zone 10": 0,
+        "Zone 11": 0,
+        "Zone 12": 0,
+        "Zone Cost 1": 0.0,
+        "Zone Cost 2": 0.0,
+        "Zone Cost 3": 0.0,
+        "Zone Cost 4": 510.0,
+        "Zone Cost 5": 530.0,
+        "Zone Cost 6": 0.0,
+        "Zone Cost 7": 0.0,
+        "Zone Cost 8": 0.0,
+        "Zone Cost 9": 0.0,
+        "Zone Cost 10": 0.0,
+        "Zone Cost 11": 0.0,
+        "Zone Cost 12": 0.0
+      }
+    ]
+  },
+  {
+    "name": "old_ink and paper color as of 10/22/95",
+    "columns": [
+      {
+        "name": "Paper color",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Ink color",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "zone number",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "zone date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "company name",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "id",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 628,
+    "sample_data": [
+      {
+        "Paper color": "GOLDEN",
+        "Ink color": "RED/BLK",
+        "zone number": "1",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "CAPITAL CHOICE TV",
+        "id": 25
+      },
+      {
+        "Paper color": "pink",
+        "Ink color": "rhod/blk",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "MARKS  AUTO",
+        "id": 32
+      },
+      {
+        "Paper color": "BLUE",
+        "Ink color": "R/BLUE",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "EMPRESS TRAVEL",
+        "id": 33
+      },
+      {
+        "Paper color": "GREEN",
+        "Ink color": "GR/BLK",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "HOFF JEWELRY",
+        "id": 34
+      },
+      {
+        "Paper color": "SALMON",
+        "Ink color": "TEAL/BLK",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "TAI PAN RESTAURANT",
+        "id": 36
+      },
+      {
+        "Paper color": "LILAC",
+        "Ink color": "TEAL/BLK",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "JAZZERCISE",
+        "id": 37
+      },
+      {
+        "Paper color": "GOLDEN",
+        "Ink color": "R/BLK",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "1/1/95",
+        "id": 39
+      },
+      {
+        "Paper color": "IVORY",
+        "Ink color": "GR/BLK",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "PERSNICKETY'S",
+        "id": 40
+      },
+      {
+        "Paper color": "IVORY",
+        "Ink color": "GR/BLK",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "TCBY YOGURT",
+        "id": 41
+      },
+      {
+        "Paper color": "BUFF",
+        "Ink color": "BORD/BLK",
+        "zone number": "4",
+        "zone date": "1995-01-01 00:00:00",
+        "company name": "DEANGELUS LAW FIRM",
+        "id": 43
+      }
+    ]
+  },
+  {
+    "name": "old_main as of 10/22/95",
+    "columns": [
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "reminder merchant",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Name",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "fax number",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "phone number",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "toggle button",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "type of business",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 240,
+    "sample_data": [
+      {
+        "ID": 40,
+        "Company Name": "PC Trainers",
+        "reminder merchant": 0,
+        "Name": "Michael Perrego",
+        "Street Address": "240 Manning Blvd",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12206",
+        "fax number": null,
+        "phone number": "4582660",
+        "toggle button": null,
+        "type of business": "Computer Training"
+      },
+      {
+        "ID": 41,
+        "Company Name": "CAPITAL CHOICE TV",
+        "reminder merchant": 0,
+        "Name": "DAVID BROWN",
+        "Street Address": "7 HEMPHILL PLACE",
+        "City": "BALLSTON SPA",
+        "State": "NY",
+        "Zip code": "12020",
+        "fax number": "5188999456",
+        "phone number": "8997501",
+        "toggle button": null,
+        "type of business": "WIRELESS TV"
+      },
+      {
+        "ID": 42,
+        "Company Name": "MAMA'S PIZZA",
+        "reminder merchant": 0,
+        "Name": "STEPHANIE",
+        "Street Address": "RT.146",
+        "City": "CLIFTON PARK",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "3717313",
+        "toggle button": null,
+        "type of business": "PIZZA"
+      },
+      {
+        "ID": 46,
+        "Company Name": "OLDE DATER TAVERN",
+        "reminder merchant": 0,
+        "Name": "JEANNIE",
+        "Street Address": "RT.9",
+        "City": "CLIFTON Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": "0000000000",
+        "phone number": "8777225",
+        "toggle button": null,
+        "type of business": "RESTAURANT"
+      },
+      {
+        "ID": 47,
+        "Company Name": "FANTASTIC SAM'S 1",
+        "reminder merchant": 0,
+        "Name": "NANCY DONE",
+        "Street Address": "2 LONGVIEW COURT",
+        "City": "CLifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": "0000000000",
+        "phone number": "3831629",
+        "toggle button": null,
+        "type of business": "HAIR"
+      },
+      {
+        "ID": 48,
+        "Company Name": "MARKS  AUTO",
+        "reminder merchant": 0,
+        "Name": "MARK",
+        "Street Address": "1019 RT.146",
+        "City": "clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "3712397",
+        "toggle button": null,
+        "type of business": "AUTO"
+      },
+      {
+        "ID": 49,
+        "Company Name": "HOFF JEWELRY",
+        "reminder merchant": 0,
+        "Name": "ERIC",
+        "Street Address": "1603 RT.9",
+        "City": "CLifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "3738645",
+        "toggle button": null,
+        "type of business": "JEWELRY"
+      },
+      {
+        "ID": 51,
+        "Company Name": "EMPRESS TRAVEL",
+        "reminder merchant": 0,
+        "Name": "TOM KENT",
+        "Street Address": "54 THE CROSSING BLVD.",
+        "City": "CLifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "5832929",
+        "toggle button": null,
+        "type of business": "TRAVEL"
+      },
+      {
+        "ID": 53,
+        "Company Name": "ACCENT ON HEALTH",
+        "reminder merchant": 0,
+        "Name": "STEVE BURKE",
+        "Street Address": "RT.9",
+        "City": "CLifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "3830225",
+        "toggle button": null,
+        "type of business": "HEALTH CLUB"
+      },
+      {
+        "ID": 54,
+        "Company Name": "TAI PAN RESTAURANT",
+        "reminder merchant": 0,
+        "Name": "STEVE/DANNY",
+        "Street Address": "1519 RT.9",
+        "City": "CLifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "fax number": null,
+        "phone number": "3838581",
+        "toggle button": null,
+        "type of business": "CHINESE RESTAURANT"
+      }
+    ]
+  },
+  {
+    "name": "reminder_table",
+    "columns": [
+      {
+        "name": "company_name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "phone_number",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "contact_name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "type_of_business",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "zone",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "month_date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "information",
+        "type": "str",
+        "size": 1073741823,
+        "nullable": true
+      },
+      {
+        "name": "city",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "state",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "zip",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "street",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "key",
+        "type": "int",
+        "size": 10,
+        "nullable": false
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "key"
+        ],
+        "unique": true
+      },
+      {
+        "name": "Company name",
+        "columns": [
+          "company_name"
+        ],
+        "unique": false
+      },
+      {
+        "name": "phone number",
+        "columns": [
+          "phone_number"
+        ],
+        "unique": false
+      }
+    ],
+    "row_count": 12,
+    "sample_data": [
+      {
+        "company_name": null,
+        "phone_number": "7188643545",
+        "contact_name": "GRACE",
+        "type_of_business": "NAILS",
+        "zone": "8",
+        "month_date": null,
+        "information": "CALL FOR ANY SALON OPENING IN ALB.",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 362
+      },
+      {
+        "company_name": "NAIL SALON",
+        "phone_number": "6464653272",
+        "contact_name": "HELEN",
+        "type_of_business": "NAILS",
+        "zone": "8",
+        "month_date": null,
+        "information": null,
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 453
+      },
+      {
+        "company_name": null,
+        "phone_number": "5189350431",
+        "contact_name": "LAURIE",
+        "type_of_business": "DENTIST",
+        "zone": "10",
+        "month_date": null,
+        "information": "CALL FOR DEC. MAILING",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 456
+      },
+      {
+        "company_name": "BRUNSWICK DENTAL",
+        "phone_number": "5185338975",
+        "contact_name": "DAWN CLARK",
+        "type_of_business": "DENTAL",
+        "zone": null,
+        "month_date": null,
+        "information": "CALL FIRST IF WE OPEN TROY GENNBUSH AREA",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 464
+      },
+      {
+        "company_name": "HUMANA MEDICAL",
+        "phone_number": "5182276012",
+        "contact_name": "RENEE",
+        "type_of_business": "MEDICAL INS.",
+        "zone": "9",
+        "month_date": null,
+        "information": "CALL FOR NEXT ZONE 9 MAILING.",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 482
+      },
+      {
+        "company_name": "GLENMONT NAIL SPA",
+        "phone_number": "7188643545",
+        "contact_name": "GRACE",
+        "type_of_business": "NAIL SALON",
+        "zone": "7",
+        "month_date": null,
+        "information": "CALL FOR APRIL MAILING",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 483
+      },
+      {
+        "company_name": "ADK DENTAL",
+        "phone_number": "5183714131",
+        "contact_name": "NICOLE",
+        "type_of_business": "DENTAL",
+        "zone": "4/12",
+        "month_date": null,
+        "information": "CALL ASAP IF AVAILABLE",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 487
+      },
+      {
+        "company_name": "BENSEN ROOFING",
+        "phone_number": "5184194837",
+        "contact_name": "SERGE",
+        "type_of_business": "ROOFING",
+        "zone": null,
+        "month_date": null,
+        "information": "CALL FOR ANY ZONE THAT OPENS UP",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 491
+      },
+      {
+        "company_name": null,
+        "phone_number": "9174067412",
+        "contact_name": "TOM SMITH SMITTY",
+        "type_of_business": "SOLAR",
+        "zone": null,
+        "month_date": null,
+        "information": "CALL FOR FUTURE MAILINGS",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 500
+      },
+      {
+        "company_name": "GENERAL ASPHALT",
+        "phone_number": "8609898480",
+        "contact_name": "JACOB STANLEY",
+        "type_of_business": null,
+        "zone": null,
+        "month_date": null,
+        "information": "CALL LATEJAN./FEB.FOR CONCRETE",
+        "city": null,
+        "state": null,
+        "zip": null,
+        "street": null,
+        "key": 501
+      }
+    ]
+  },
+  {
+    "name": "T053000A",
+    "columns": [
+      {
+        "name": "Field1",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field2",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Field4",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field5",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field6",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field7",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Field8",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 97,
+    "sample_data": [
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 57,
+        "Field4": "05/30/2000",
+        "Field5": "053000-1",
+        "Field6": "INV",
+        "Field7": "143.00",
+        "Field8": "Zone 11-4/10/00-$143.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 64,
+        "Field4": "05/30/2000",
+        "Field5": "053000-2",
+        "Field6": "INV",
+        "Field7": "540.00",
+        "Field8": "Zone 10-5/24/00-$540.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 76,
+        "Field4": "05/30/2000",
+        "Field5": "053000-3",
+        "Field6": "INV",
+        "Field7": "575.00",
+        "Field8": "Zone 11-4/10/00-$575.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 107,
+        "Field4": "05/30/2000",
+        "Field5": "053000-4",
+        "Field6": "INV",
+        "Field7": "360.00",
+        "Field8": "Zone 8-4/28/00-$360.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 137,
+        "Field4": "05/30/2000",
+        "Field5": "053000-5",
+        "Field6": "INV",
+        "Field7": "383.00",
+        "Field8": "Zone 5-4/19/00-$383.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 183,
+        "Field4": "05/30/2000",
+        "Field5": "053000-6",
+        "Field6": "INV",
+        "Field7": "675.00",
+        "Field8": "Zone 10-5/24/00-$675.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 184,
+        "Field4": "05/30/2000",
+        "Field5": "053000-7",
+        "Field6": "INV",
+        "Field7": "650.00",
+        "Field8": "Zone 9-5/11/00-$650.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 184,
+        "Field4": "05/30/2000",
+        "Field5": "053000-8",
+        "Field6": "INV",
+        "Field7": "650.00",
+        "Field8": "Zone 4-5/26/00-$650.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 186,
+        "Field4": "05/30/2000",
+        "Field5": "053000-9",
+        "Field6": "INV",
+        "Field7": "575.00",
+        "Field8": "Zone 6-2/21/00-$575.00"
+      },
+      {
+        "Field1": "02",
+        "Field2": "CONPA01",
+        "Field3": 191,
+        "Field4": "05/30/2000",
+        "Field5": "053000-10",
+        "Field6": "INV",
+        "Field7": "575.00",
+        "Field8": "Zone 10-5/24/00-$575.00"
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports2030",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 32,
+    "sample_data": [
+      {
+        "Balance due": 750.0,
+        "zoning date": "2024-12-16 00:00:00",
+        "Company Name": "COLONIAL CAR WASH",
+        "Street Address": "4017B STATE ST.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 790.0,
+        "zoning date": "2024-12-18 00:00:00",
+        "Company Name": "FEIGENBAUM CLEANERS",
+        "Street Address": "89 1/2 BAY ST.",
+        "City": "GLENS FALLS",
+        "State": "NY",
+        "Zip code": "12801",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-12-16 00:00:00",
+        "Company Name": "MAYFAIR JEWELERS",
+        "Street Address": "7 GLENRIDGE RD",
+        "City": "Scotia",
+        "State": "NY",
+        "Zip code": "12302",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 695.0,
+        "zoning date": "2024-12-16 00:00:00",
+        "Company Name": "ROTTERDAM HEAT",
+        "Street Address": "3101 THOMPSON ST.",
+        "City": "SCHENECTADY",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-12-18 00:00:00",
+        "Company Name": "SORRENTINOS DELI",
+        "Street Address": "241 GROOMS RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 650.0,
+        "zoning date": "2024-12-18 00:00:00",
+        "Company Name": "ADIRONDACK POOL",
+        "Street Address": "5 BOULEVARD",
+        "City": "QUEENSBURY",
+        "State": "NY",
+        "Zip code": "12804",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 790.0,
+        "zoning date": "2024-12-18 00:00:00",
+        "Company Name": "GRAPE VINE LIQUOR",
+        "Street Address": "3039 RT.50 WILTON SQUARE",
+        "City": "Saratoga Springs",
+        "State": "NY",
+        "Zip code": "12866",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-12-18 00:00:00",
+        "Company Name": "CHAMPS CHIMNEY",
+        "Street Address": "845 RT.9",
+        "City": "QUEENSBURY",
+        "State": "NY",
+        "Zip code": "12804",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 790.0,
+        "zoning date": "2024-12-18 00:00:00",
+        "Company Name": "WEST AVE PIZZA",
+        "Street Address": "99 WEST AVE",
+        "City": "Saratoga Springs",
+        "State": "NY",
+        "Zip code": "12866",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 765.0,
+        "zoning date": "2024-12-16 00:00:00",
+        "Company Name": "ALL PHASE MASONRY",
+        "Street Address": "P.O. BOX 2",
+        "City": "FEURA BUSH",
+        "State": "NY",
+        "Zip code": "12067",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports2030_9/29/97",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 16,
+    "sample_data": [
+      {
+        "Selected": "-1",
+        "Balance due": 182.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "ADVANCED CAR WASH",
+        "Street Address": "48 VOORHEESVILLE AVE.",
+        "City": "VOORHEESVILLE",
+        "State": "NY",
+        "Zip code": "12186",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 182.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "ENGRAVE A GIFT",
+        "Street Address": "2080 WESTERN AVE",
+        "City": "GUilderland",
+        "State": "NY",
+        "Zip code": "12084",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 184.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "JAYCEES PIZZA DEPOT",
+        "Street Address": "8 SOUTH MAIN ST.",
+        "City": "VOORHEESVILLE",
+        "State": "NY",
+        "Zip code": "12186",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 343.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "SUBS N SIDES",
+        "Street Address": "5 NEW KARNER RD",
+        "City": "GUilderland",
+        "State": "NY",
+        "Zip code": "12084",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "TOUCH OF COUNTRY",
+        "Street Address": "20 MALL",
+        "City": "GUILDERLAND",
+        "State": "NY",
+        "Zip code": "12084",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "MOVIES  & MORE SUPERSTORE",
+        "Street Address": "3770 CARMEN RD.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12303",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 182.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "DE LA CRUZ PHOTO",
+        "Street Address": "598 COLUMBIA TURNPIKE",
+        "City": "East Greenbush",
+        "State": "NY",
+        "Zip code": "12061",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 650.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "TIME WARNER CABLE & SECURITY",
+        "Street Address": "59 LEVERSEE RD.",
+        "City": "TROY",
+        "State": "NY",
+        "Zip code": "12182",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "MAID TO ORDER",
+        "Street Address": "233 VLEY RD",
+        "City": "SCOtia",
+        "State": "NY",
+        "Zip code": "12302",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1997-09-01 00:00:00",
+        "Company Name": "BATH FITTER",
+        "Street Address": "P.O.BOX 13446",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "122123446",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports2030used",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 19,
+    "sample_data": [
+      {
+        "Selected": "-1",
+        "Balance due": 171.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "BROOKLYNS AMERICAN GRILL",
+        "Street Address": "93W CAMPBELL RD",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 100.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "CUTTING EDGE",
+        "Street Address": "1879 ALTAMONT AVE.",
+        "City": "SCHENECTADY",
+        "State": "NY",
+        "Zip code": "12303",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 650.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "BONFARE",
+        "Street Address": "2009 BROADWAY",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "MR. SUBB",
+        "Street Address": "621 COLUMBIA TPK. EXT.",
+        "City": "COHOES",
+        "State": "NY",
+        "Zip code": "12047",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 515.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "PETTA S RESTAURANT",
+        "Street Address": "134 DUANE AVE.",
+        "City": "SCHenectady",
+        "State": "NY",
+        "Zip code": "12307",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "BAGEL OR",
+        "Street Address": "1064 CURRY RD.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 525.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "SWEET SUE S",
+        "Street Address": "2013 STATE ST.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "ROTTERDAM LANDSCAPING",
+        "Street Address": "377 BIRCHWOOD DR.",
+        "City": "DUANESBURG",
+        "State": "NY",
+        "Zip code": "12056",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "MR.K S CARPET",
+        "Street Address": "3095 SPAWN RD.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12303",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 650.0,
+        "zoning date": "1996-08-02 00:00:00",
+        "Company Name": "TIME WARNER CABLE & SECURITY",
+        "Street Address": "59 LEVERSEE RD.",
+        "City": "TROY",
+        "State": "NY",
+        "Zip code": "12182",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports3145",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 24,
+    "sample_data": [
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-09-03 00:00:00",
+        "Company Name": "MAYFAIR JEWELERS",
+        "Street Address": "7 GLENRIDGE RD",
+        "City": "Scotia",
+        "State": "NY",
+        "Zip code": "12302",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 695.0,
+        "zoning date": "2024-09-03 00:00:00",
+        "Company Name": "ROTTERDAM HEAT",
+        "Street Address": "3101 THOMPSON ST.",
+        "City": "SCHENECTADY",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-08-26 00:00:00",
+        "Company Name": "SORRENTINOS DELI",
+        "Street Address": "241 GROOMS RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": -1,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-09-03 00:00:00",
+        "Company Name": "MIDAS AUTO SERVICE",
+        "Street Address": "1101 MONROE ST.",
+        "City": "TOLEDO",
+        "State": "OH",
+        "Zip code": "43604",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 595.0,
+        "zoning date": "2024-08-26 00:00:00",
+        "Company Name": "ADIRONDACK QUILTS",
+        "Street Address": "22 FIFTH ST",
+        "City": "S. GLENS FALLS",
+        "State": "NY",
+        "Zip code": "12803",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": -1,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 695.0,
+        "zoning date": "2024-09-03 00:00:00",
+        "Company Name": "RAINBOW NAIL SPA",
+        "Street Address": "1170 CENTRAL AVE",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 790.0,
+        "zoning date": "2024-08-26 00:00:00",
+        "Company Name": "HOGWASH CLEANING SOLUTIONS",
+        "Street Address": "P.O.BOX 2768",
+        "City": "GLENS FALLS",
+        "State": "NY",
+        "Zip code": "12801",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": -1,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 750.0,
+        "zoning date": "2024-09-03 00:00:00",
+        "Company Name": "RICHARDS PAVING",
+        "Street Address": "860 HUDSON RIVER RD.",
+        "City": "MECHANICVILLE",
+        "State": "NY",
+        "Zip code": "12118",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 790.0,
+        "zoning date": "2024-08-26 00:00:00",
+        "Company Name": "PURE PERFECTION LANDSCAPING",
+        "Street Address": "P.O.BOX 3510",
+        "City": "GLENS FALLS",
+        "State": "NY",
+        "Zip code": "12801",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": -1,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2024-08-26 00:00:00",
+        "Company Name": "CPE TREE SERVICE",
+        "Street Address": "67 DUNSEACH RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": -1,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports3145used",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 17,
+    "sample_data": [
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "MIKE S VIDEO",
+        "Street Address": "MARIAVILLE RD.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": -1,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 171.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "CHOCOLATE EXPRESS",
+        "Street Address": "1593 CENTRAL AVE.",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 625.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "RAINDANCER CAR WASH",
+        "Street Address": "P.O.BOX 11178",
+        "City": "LOUDONVILLE",
+        "State": "NY",
+        "Zip code": "12211",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "PIZZA MARE",
+        "Street Address": "1839 CENTRAL AVE",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "MANHATTAN BAGEL II",
+        "Street Address": "1814 CENTRAL AVE",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "TIRE & BRAKE DIST. 3",
+        "Street Address": "2040 CENTRAL AVE.",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 550.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "ASHLINE MOVING",
+        "Street Address": "P.O.BOX 453",
+        "City": "Watervliet",
+        "State": "NY",
+        "Zip code": "12189",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 490.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "SIDING SOLUTIONS",
+        "Street Address": "P.O.BOX 2064",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 650.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "TIME WARNER CABLE & SECURITY",
+        "Street Address": "59 LEVERSEE RD.",
+        "City": "TROY",
+        "State": "NY",
+        "Zip code": "12182",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 367.0,
+        "zoning date": "1996-08-01 00:00:00",
+        "Company Name": "VICTORY LANE SPEEDWAY",
+        "Street Address": "1921 DOVER LANE",
+        "City": "CASTLETON",
+        "State": "NY",
+        "Zip code": "12033",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports4689",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 12,
+    "sample_data": [
+      {
+        "Balance due": 595.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "GOLDSTOCKS SPORTS",
+        "Street Address": "98 FREEMANS BRIDGE RD",
+        "City": "SCOtia",
+        "State": "NY",
+        "Zip code": "12302",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 695.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "SONDRAS JEWELRY",
+        "Street Address": "1624 UNION ST",
+        "City": "SCHENECTADY",
+        "State": "NY",
+        "Zip code": "12309",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 695.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "MIDAS AUTO SERVICE",
+        "Street Address": "1101 MONROE ST.",
+        "City": "TOLEDO",
+        "State": "OH",
+        "Zip code": "43604",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 660.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "BOULEVARD BOWL",
+        "Street Address": "1315 ERIE BLVD",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12305",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1"
+      },
+      {
+        "Balance due": 660.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "TURF TAVERN",
+        "Street Address": "40 MOHAWK AVE",
+        "City": "Scotia",
+        "State": "NY",
+        "Zip code": "12302",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 275.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "UNION CAF\u00c9",
+        "Street Address": "1725 UNION ST",
+        "City": "NISKAYUNA",
+        "State": "NY",
+        "Zip code": "12309",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 275.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "ONE HUGE SAVINGS",
+        "Street Address": "1716 UNION ST",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12308",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 670.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "NOTT ST OFFICE",
+        "Street Address": "2215 NOTT ST",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12309",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 655.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "TESOROS CAF\u00c9",
+        "Street Address": "1712 UNION ST",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12309",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      },
+      {
+        "Balance due": 645.0,
+        "zoning date": "2017-11-13 00:00:00",
+        "Company Name": "PREDELS RANCH",
+        "Street Address": "59 GARNSEY RD",
+        "City": "REXFORD",
+        "State": "NY",
+        "Zip code": "12148",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "0"
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports4689used",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 35,
+    "sample_data": [
+      {
+        "Selected": "-1",
+        "Balance due": 443.0,
+        "zoning date": "1996-07-01 00:00:00",
+        "Company Name": "SALISBURY SEALCOATING",
+        "Street Address": "570 ELM AVE",
+        "City": "SELKIRK",
+        "State": "NY",
+        "Zip code": "12158",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 171.0,
+        "zoning date": "1996-06-07 00:00:00",
+        "Company Name": "MARMARINOS REST.",
+        "Street Address": "2025 STATE ST.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 257.5,
+        "zoning date": "1996-07-01 00:00:00",
+        "Company Name": "PIZZA BARON",
+        "Street Address": "315 CENTRAL AVE",
+        "City": "ALBany",
+        "State": "NY",
+        "Zip code": "12206",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 343.0,
+        "zoning date": "1996-06-28 00:00:00",
+        "Company Name": "YOU MISSED A SPOT",
+        "Street Address": "55 W.SAND LAKE RD.",
+        "City": "WYNANTSKILL",
+        "State": "NY",
+        "Zip code": "12198",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": -1,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 515.0,
+        "zoning date": "1996-06-07 00:00:00",
+        "Company Name": "BROWNS POOL SERVICE",
+        "Street Address": "633 DUANESBURG RD.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 515.0,
+        "zoning date": "1996-06-07 00:00:00",
+        "Company Name": "FOUNTAINS HOME IMPROVEMENT",
+        "Street Address": "1205 UNION ST",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12308",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 515.0,
+        "zoning date": "1996-07-01 00:00:00",
+        "Company Name": "TIRE & BRAKE DIST. 3",
+        "Street Address": "2040 CENTRAL AVE.",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 385.0,
+        "zoning date": "1996-07-01 00:00:00",
+        "Company Name": "ASHLINE MOVING",
+        "Street Address": "P.O.BOX 453",
+        "City": "Watervliet",
+        "State": "NY",
+        "Zip code": "12189",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 30.0,
+        "zoning date": "1996-07-01 00:00:00",
+        "Company Name": "SIDING SOLUTIONS",
+        "Street Address": "P.O.BOX 2064",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Balance due": 515.0,
+        "zoning date": "1996-07-01 00:00:00",
+        "Company Name": "WINDFLOWER FLORIST",
+        "Street Address": "DELAWARE PLAZA",
+        "City": "Delmar",
+        "State": "NY",
+        "Zip code": "12054",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports90",
+    "columns": [
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 13",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 14",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 15",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Serious",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 44,
+    "sample_data": [
+      {
+        "Balance due": 695.0,
+        "zoning date": "2023-08-28 00:00:00",
+        "Company Name": "ROTTERDAM HEAT",
+        "Street Address": "3101 THOMPSON ST.",
+        "City": "SCHENECTADY",
+        "State": "NY",
+        "Zip code": "12306",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 750.0,
+        "zoning date": "2023-09-12 00:00:00",
+        "Company Name": "SAVEMORE BEVERAGE",
+        "Street Address": "1512 RT.9",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": -1,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 725.0,
+        "zoning date": "2023-09-20 00:00:00",
+        "Company Name": "SORRENTINOS DELI",
+        "Street Address": "241 GROOMS RD",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": -1,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 750.0,
+        "zoning date": "2023-04-04 00:00:00",
+        "Company Name": "STEINERS SPORTS",
+        "Street Address": "329 GLENMONT RD",
+        "City": "Glenmont",
+        "State": "NY",
+        "Zip code": "12077",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 450.0,
+        "zoning date": "2022-02-07 00:00:00",
+        "Company Name": "COMPUTER MECHANIC",
+        "Street Address": "2330 WATT ST",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 750.0,
+        "zoning date": "2022-04-13 00:00:00",
+        "Company Name": "COMPUTER MECHANIC",
+        "Street Address": "2330 WATT ST",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": -1,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 750.0,
+        "zoning date": "2022-08-15 00:00:00",
+        "Company Name": "COMPUTER MECHANIC",
+        "Street Address": "2330 WATT ST",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 750.0,
+        "zoning date": "2022-11-16 00:00:00",
+        "Company Name": "COMPUTER MECHANIC",
+        "Street Address": "2330 WATT ST",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 750.0,
+        "zoning date": "2023-02-20 00:00:00",
+        "Company Name": "COMPUTER MECHANIC",
+        "Street Address": "2330 WATT ST",
+        "City": "Schenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      },
+      {
+        "Balance due": 450.0,
+        "zoning date": "2023-08-28 00:00:00",
+        "Company Name": "ANGELAS PIZZA & PASTA",
+        "Street Address": "329 GLENMONT RD",
+        "City": "Glenmont",
+        "State": "NY",
+        "Zip code": "12077",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": -1,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null,
+        "Zone 13": null,
+        "Zone 14": null,
+        "Zone 15": null,
+        "Selected": "-1",
+        "Serious": null
+      }
+    ]
+  },
+  {
+    "name": "tblOverdueReports90SeriousReports",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Serious",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 0,
+    "sample_data": []
+  },
+  {
+    "name": "tblOverdueReports90used",
+    "columns": [
+      {
+        "name": "Selected",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Serious",
+        "type": "str",
+        "size": 255,
+        "nullable": true
+      },
+      {
+        "name": "Balance due",
+        "type": "float",
+        "size": 53,
+        "nullable": true
+      },
+      {
+        "name": "zoning date",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      },
+      {
+        "name": "Company Name",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Street Address",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "City",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "State",
+        "type": "str",
+        "size": 2,
+        "nullable": true
+      },
+      {
+        "name": "Zip code",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone 1",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 2",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 3",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 4",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 5",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 6",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 7",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 8",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 9",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 10",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 11",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      },
+      {
+        "name": "Zone 12",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [],
+    "row_count": 31,
+    "sample_data": [
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 195.0,
+        "zoning date": "1995-06-01 00:00:00",
+        "Company Name": "WOLF RD. CLEANERS",
+        "Street Address": "199 WOLF RD.",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": -1,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 565.0,
+        "zoning date": "1995-06-01 00:00:00",
+        "Company Name": "CRYSTAL COACH LIMO",
+        "Street Address": "443 CHISWELL AVE.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12304",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": -1,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": -1,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 1060.0,
+        "zoning date": "1995-09-01 00:00:00",
+        "Company Name": "L ECOLE ENCORE",
+        "Street Address": "FULLER RD.",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12203",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": -1,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 165.0,
+        "zoning date": "1995-10-01 00:00:00",
+        "Company Name": "SUPERIOR TAXI",
+        "Street Address": "1056 ALTAMONT AVE",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12303",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 495.0,
+        "zoning date": "1995-12-08 00:00:00",
+        "Company Name": "WOLF RD. CLEANERS",
+        "Street Address": "199 WOLF RD.",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 300.0,
+        "zoning date": "1995-12-08 00:00:00",
+        "Company Name": "TANMASTERS",
+        "Street Address": "WOLF RD. SHOPPERS PARK",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12205",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": -1,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 330.0,
+        "zoning date": "1996-01-04 00:00:00",
+        "Company Name": "PIZZA BARON 2",
+        "Street Address": "1602 RT.9",
+        "City": "Clifton Park",
+        "State": "NY",
+        "Zip code": "12065",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": -1,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 530.0,
+        "zoning date": "1996-01-05 00:00:00",
+        "Company Name": "L ECOLE ENCORE",
+        "Street Address": "FULLER RD.",
+        "City": "Albany",
+        "State": "NY",
+        "Zip code": "12203",
+        "Zone 1": null,
+        "Zone 2": null,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": -1,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 165.0,
+        "zoning date": "1996-02-16 00:00:00",
+        "Company Name": "THOMPSON CLEANING SERVICE",
+        "Street Address": "1074 PARKWOOD BLVD.",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12308",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      },
+      {
+        "Selected": "-1",
+        "Serious": null,
+        "Balance due": 515.0,
+        "zoning date": "1996-02-16 00:00:00",
+        "Company Name": "SUPERIOR TAXI",
+        "Street Address": "1056 ALTAMONT AVE",
+        "City": "SChenectady",
+        "State": "NY",
+        "Zip code": "12303",
+        "Zone 1": null,
+        "Zone 2": -1,
+        "Zone 3": null,
+        "Zone 4": null,
+        "Zone 5": null,
+        "Zone 6": null,
+        "Zone 7": null,
+        "Zone 8": null,
+        "Zone 9": null,
+        "Zone 10": null,
+        "Zone 11": null,
+        "Zone 12": null
+      }
+    ]
+  },
+  {
+    "name": "temp table",
+    "columns": [
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": false
+      },
+      {
+        "name": "Month",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Zone",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "Year",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "ID"
+        ],
+        "unique": true
+      }
+    ],
+    "row_count": 2,
+    "sample_data": [
+      {
+        "ID": 5,
+        "Month": "12",
+        "Zone": "10",
+        "Year": "31"
+      },
+      {
+        "ID": 6,
+        "Month": "07",
+        "Zone": "3",
+        "Year": "18"
+      }
+    ]
+  },
+  {
+    "name": "tempdate",
+    "columns": [
+      {
+        "name": "ID",
+        "type": "int",
+        "size": 10,
+        "nullable": false
+      },
+      {
+        "name": "tempdate",
+        "type": "datetime",
+        "size": 19,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "ID"
+        ],
+        "unique": true
+      }
+    ],
+    "row_count": 1,
+    "sample_data": [
+      {
+        "ID": 2,
+        "tempdate": "1995-11-01 00:00:00"
+      }
+    ]
+  },
+  {
+    "name": "zonecost",
+    "columns": [
+      {
+        "name": "zonecost",
+        "type": "int",
+        "size": 10,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "zonecost"
+        ],
+        "unique": true
+      }
+    ],
+    "row_count": 13,
+    "sample_data": [
+      {
+        "zonecost": 0
+      },
+      {
+        "zonecost": 660
+      },
+      {
+        "zonecost": 680
+      },
+      {
+        "zonecost": 685
+      },
+      {
+        "zonecost": 695
+      },
+      {
+        "zonecost": 725
+      },
+      {
+        "zonecost": 755
+      },
+      {
+        "zonecost": 775
+      },
+      {
+        "zonecost": 780
+      },
+      {
+        "zonecost": 785
+      }
+    ]
+  },
+  {
+    "name": "zones",
+    "columns": [
+      {
+        "name": "zone",
+        "type": "str",
+        "size": 50,
+        "nullable": true
+      },
+      {
+        "name": "order",
+        "type": "int",
+        "size": 5,
+        "nullable": true
+      }
+    ],
+    "primary_keys": [],
+    "foreign_keys": [],
+    "indexes": [
+      {
+        "name": "PrimaryKey",
+        "columns": [
+          "zone"
+        ],
+        "unique": true
+      }
+    ],
+    "row_count": 17,
+    "sample_data": [
+      {
+        "zone": "1",
+        "order": 1
+      },
+      {
+        "zone": "10",
+        "order": 10
+      },
+      {
+        "zone": "11",
+        "order": 11
+      },
+      {
+        "zone": "12",
+        "order": 12
+      },
+      {
+        "zone": "13",
+        "order": 13
+      },
+      {
+        "zone": "14",
+        "order": 14
+      },
+      {
+        "zone": "15",
+        "order": 15
+      },
+      {
+        "zone": "16",
+        "order": 16
+      },
+      {
+        "zone": "2",
+        "order": 2
+      },
+      {
+        "zone": "3",
+        "order": 3
+      }
+    ]
+  }
+]

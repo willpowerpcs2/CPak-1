@@ -1,0 +1,256 @@
+2025-03-29 00:04:33,668 - INFO - Data import started at 2025-03-29 00:04:33.668364
+2025-03-29 00:04:33,723 - ERROR - Error connecting to PostgreSQL database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "cpak" does not exist
+
+2025-03-29 00:06:05,080 - INFO - Data import started at 2025-03-29 00:06:05.080580
+2025-03-29 00:06:05,123 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:06:05,135 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:06:05,136 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 00:11:19,940 - INFO - Data import started at 2025-03-29 00:11:19.939996
+2025-03-29 00:11:19,983 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:11:19,993 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:11:19,993 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 00:11:54,808 - INFO - Data import started at 2025-03-29 00:11:54.808332
+2025-03-29 00:11:54,851 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:11:54,859 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:11:54,859 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 00:14:58,626 - INFO - Data import started at 2025-03-29 00:14:58.626441
+2025-03-29 00:14:58,669 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:14:58,682 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:14:58,683 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 00:20:20,939 - INFO - Data import started at 2025-03-29 00:20:20.939634
+2025-03-29 00:20:20,981 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:20:20,981 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 00:20:20,981 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 00:20:57,009 - INFO - Data import started at 2025-03-29 00:20:57.009438
+2025-03-29 00:20:57,052 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:20:57,052 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 00:20:57,052 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 00:21:53,675 - INFO - Data import started at 2025-03-29 00:21:53.675032
+2025-03-29 00:21:53,717 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:21:53,717 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 00:21:53,717 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 00:22:13,936 - INFO - Data import started at 2025-03-29 00:22:13.936917
+2025-03-29 00:22:13,978 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:22:13,978 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 00:22:13,979 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 00:23:09,996 - INFO - Data import started at 2025-03-29 00:23:09.996729
+2025-03-29 00:23:10,040 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:23:10,049 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:23:10,049 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 09:36:26,370 - INFO - Data import started at 2025-03-29 09:36:26.370225
+2025-03-29 09:36:26,423 - ERROR - Error connecting to PostgreSQL database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2025-03-29 09:36:44,626 - INFO - Data import started at 2025-03-29 09:36:44.626683
+2025-03-29 09:36:44,676 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:36:44,690 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 09:36:44,690 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 09:43:33,797 - INFO - Data import started at 2025-03-29 09:43:33.797471
+2025-03-29 09:43:33,845 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:43:33,847 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 09:43:33,847 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 09:53:17,866 - INFO - Data import started at 2025-03-29 09:53:17.866650
+2025-03-29 09:53:17,907 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:53:17,907 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 09:53:17,908 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 09:54:44,413 - INFO - Data import started at 2025-03-29 09:54:44.413151
+2025-03-29 09:54:44,458 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:54:44,458 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 09:54:44,459 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 09:55:00,893 - INFO - Data import started at 2025-03-29 09:55:00.893554
+2025-03-29 09:55:00,939 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:55:00,964 - ERROR - Error executing schema file: type "datetime" does not exist
+LINE 13:     zoning_date DATETIME,
+                         ^
+
+2025-03-29 09:55:00,964 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 09:57:07,894 - INFO - Data import started at 2025-03-29 09:57:07.894271
+2025-03-29 09:57:07,939 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:57:07,971 - ERROR - Error executing schema file: relation "idx_company_name" already exists
+
+2025-03-29 09:57:07,971 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 10:00:12,105 - INFO - Data import started at 2025-03-29 10:00:12.105775
+2025-03-29 10:00:12,149 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:00:12,181 - ERROR - Error executing schema file: length for type varchar cannot exceed 10485760
+LINE 225:     information VARCHAR(1073741823),
+                          ^
+
+2025-03-29 10:00:12,181 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 10:03:50,152 - INFO - Data import started at 2025-03-29 10:03:50.152901
+2025-03-29 10:03:50,197 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:03:50,204 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS idx_company_name ON...
+                                       ^
+
+2025-03-29 10:03:50,205 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 10:06:11,628 - INFO - Data import started at 2025-03-29 10:06:11.628359
+2025-03-29 10:06:11,670 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:06:11,678 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS IF NOT EXISTS idx_c...
+                                       ^
+
+2025-03-29 10:06:11,678 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 10:11:21,489 - INFO - Data import started at 2025-03-29 10:11:21.489783
+2025-03-29 10:11:21,532 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:11:21,541 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS IF NOT EXISTS IF NO...
+                                       ^
+
+2025-03-29 10:11:21,541 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 10:15:16,370 - INFO - Data import started at 2025-03-29 10:15:16.370016
+2025-03-29 10:15:16,415 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:15:16,416 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS IF NOT EXISTS IF NO...
+                                       ^
+
+2025-03-29 10:15:16,417 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 10:15:54,249 - INFO - Data import started at 2025-03-29 10:15:54.249467
+2025-03-29 10:15:54,292 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:15:54,294 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS IF NOT EXISTS IF NO...
+                                       ^
+
+2025-03-29 10:15:54,294 - ERROR - Failed to execute schema file. Aborting import.
+2025-03-29 10:18:58,615 - INFO - Data import started at 2025-03-29 10:18:58.615142
+2025-03-29 10:18:58,660 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:18:58,685 - INFO - Executed schema file: ./migration_output\analysis\sql\schema.sql
+2025-03-29 10:18:58,686 - INFO - Processing file: ./migration_output\extracted_data\city names.csv
+2025-03-29 10:18:58,698 - INFO - Created table: city names
+2025-03-29 10:18:58,703 - INFO - Imported 14 rows into table: city names
+2025-03-29 10:18:58,703 - INFO - Processing file: ./migration_output\extracted_data\data table.csv
+2025-03-29 10:18:58,809 - INFO - Created table: data table
+2025-03-29 10:18:59,987 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\data table.csv: integer out of range
+
+2025-03-29 10:18:59,999 - INFO - Processing file: ./migration_output\extracted_data\ink and paper color.csv
+2025-03-29 10:19:00,020 - INFO - Created table: ink and paper color
+2025-03-29 10:19:00,058 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\ink and paper color.csv: integer out of range
+
+2025-03-29 10:19:00,059 - INFO - Processing file: ./migration_output\extracted_data\main_table.csv
+2025-03-29 10:19:00,077 - INFO - Created table: main_table
+2025-03-29 10:19:00,095 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\main_table.csv: column "Company Name" of relation "main_table" does not exist
+LINE 1: INSERT INTO "main_table" ("Company Name", "ID", "reminder me...
+                                  ^
+
+2025-03-29 10:19:00,098 - INFO - Processing file: ./migration_output\extracted_data\months.csv
+2025-03-29 10:19:00,105 - INFO - Created table: months
+2025-03-29 10:19:00,107 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\months.csv: column "Month Number" of relation "months" does not exist
+LINE 1: INSERT INTO "months" ("Month Number", "Month Name") VALUES (...
+                              ^
+
+2025-03-29 10:19:00,107 - INFO - Processing file: ./migration_output\extracted_data\NotBankBillable.csv
+2025-03-29 10:19:00,119 - INFO - Created table: NotBankBillable
+2025-03-29 10:19:00,126 - INFO - Imported 25 rows into table: NotBankBillable
+2025-03-29 10:19:00,126 - INFO - Processing file: ./migration_output\extracted_data\query_bankbillable.csv
+2025-03-29 10:19:00,144 - INFO - Created table: bankbillable
+2025-03-29 10:19:00,323 - INFO - Imported 4560 rows into table: bankbillable
+2025-03-29 10:19:00,324 - INFO - Processing file: ./migration_output\extracted_data\query_data table Without Matching main_table.csv
+2025-03-29 10:19:00,339 - INFO - Created table: data table Without Matching main_table
+2025-03-29 10:19:00,344 - INFO - Imported 0 rows into table: data table Without Matching main_table
+2025-03-29 10:19:00,344 - INFO - Processing file: ./migration_output\extracted_data\query_main.csv
+2025-03-29 10:19:00,362 - INFO - Created table: main
+2025-03-29 10:19:00,438 - INFO - Imported 2331 rows into table: main
+2025-03-29 10:19:00,439 - INFO - Processing file: ./migration_output\extracted_data\query_past due accounts.csv
+2025-03-29 10:19:00,451 - INFO - Created table: past due accounts
+2025-03-29 10:19:00,460 - INFO - Imported 111 rows into table: past due accounts
+2025-03-29 10:19:00,460 - INFO - Processing file: ./migration_output\extracted_data\query_qryReport2030.csv
+2025-03-29 10:19:00,471 - INFO - Created table: qryReport2030
+2025-03-29 10:19:00,476 - INFO - Imported 17 rows into table: qryReport2030
+2025-03-29 10:19:00,476 - INFO - Processing file: ./migration_output\extracted_data\query_qryReport3145.csv
+2025-03-29 10:19:00,487 - INFO - Created table: qryReport3145
+2025-03-29 10:19:00,492 - INFO - Imported 24 rows into table: qryReport3145
+2025-03-29 10:19:00,492 - INFO - Processing file: ./migration_output\extracted_data\query_qryReport4689.csv
+2025-03-29 10:19:00,502 - INFO - Created table: qryReport4689
+2025-03-29 10:19:00,507 - INFO - Imported 5 rows into table: qryReport4689
+2025-03-29 10:19:00,507 - INFO - Processing file: ./migration_output\extracted_data\query_qryReport90.csv
+2025-03-29 10:19:00,518 - INFO - Created table: qryReport90
+2025-03-29 10:19:00,525 - INFO - Imported 41 rows into table: qryReport90
+2025-03-29 10:19:00,525 - INFO - Processing file: ./migration_output\extracted_data\query_qryReportSeriousFromSmallClaims.csv
+2025-03-29 10:19:00,537 - INFO - Created table: qryReportSeriousFromSmallClaims
+2025-03-29 10:19:00,547 - INFO - Imported 111 rows into table: qryReportSeriousFromSmallClaims
+2025-03-29 10:19:00,547 - INFO - Processing file: ./migration_output\extracted_data\query_qry_mailing label backup.csv
+2025-03-29 10:19:00,558 - INFO - Created table: qry_mailing label backup
+2025-03-29 10:19:00,565 - INFO - Imported 111 rows into table: qry_mailing label backup
+2025-03-29 10:19:00,565 - INFO - Processing file: ./migration_output\extracted_data\query_qry_Zone Rollup.csv
+2025-03-29 10:19:00,588 - INFO - Created table: qry_Zone Rollup
+2025-03-29 10:19:00,734 - INFO - Imported 26543 rows into table: qry_Zone Rollup
+2025-03-29 10:19:00,735 - INFO - Processing file: ./migration_output\extracted_data\query_reminder merchant query.csv
+2025-03-29 10:19:00,744 - INFO - Created table: reminder merchant query
+2025-03-29 10:19:00,748 - INFO - Imported 2 rows into table: reminder merchant query
+2025-03-29 10:19:00,748 - INFO - Processing file: ./migration_output\extracted_data\reminder_table.csv
+2025-03-29 10:19:00,757 - INFO - Created table: reminder_table
+2025-03-29 10:19:00,762 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\reminder_table.csv: column "month_date" is of type timestamp without time zone but expression is of type double precision
+LINE 1: ...ES ('NaN'::float,7188643545.0,'GRACE','NAILS','8','NaN'::flo...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-03-29 10:19:00,763 - INFO - Processing file: ./migration_output\extracted_data\T053000A.csv
+2025-03-29 10:19:00,773 - INFO - Created table: T053000A
+2025-03-29 10:19:00,779 - INFO - Imported 97 rows into table: T053000A
+2025-03-29 10:19:00,779 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports2030.csv
+2025-03-29 10:19:00,790 - INFO - Created table: tblOverdueReports2030
+2025-03-29 10:19:00,796 - INFO - Imported 32 rows into table: tblOverdueReports2030
+2025-03-29 10:19:00,796 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports2030used.csv
+2025-03-29 10:19:00,806 - INFO - Created table: tblOverdueReports2030used
+2025-03-29 10:19:00,812 - INFO - Imported 19 rows into table: tblOverdueReports2030used
+2025-03-29 10:19:00,812 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports3145.csv
+2025-03-29 10:19:00,817 - INFO - Created table: tblOverdueReports3145
+2025-03-29 10:19:00,823 - INFO - Imported 24 rows into table: tblOverdueReports3145
+2025-03-29 10:19:00,823 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports3145used.csv
+2025-03-29 10:19:00,834 - INFO - Created table: tblOverdueReports3145used
+2025-03-29 10:19:00,840 - INFO - Imported 17 rows into table: tblOverdueReports3145used
+2025-03-29 10:19:00,840 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports4689.csv
+2025-03-29 10:19:00,851 - INFO - Created table: tblOverdueReports4689
+2025-03-29 10:19:00,857 - INFO - Imported 12 rows into table: tblOverdueReports4689
+2025-03-29 10:19:00,857 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports4689used.csv
+2025-03-29 10:19:00,868 - INFO - Created table: tblOverdueReports4689used
+2025-03-29 10:19:00,874 - INFO - Imported 35 rows into table: tblOverdueReports4689used
+2025-03-29 10:19:00,874 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports90.csv
+2025-03-29 10:19:00,884 - INFO - Created table: tblOverdueReports90
+2025-03-29 10:19:00,891 - INFO - Imported 44 rows into table: tblOverdueReports90
+2025-03-29 10:19:00,891 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports90SeriousReports.csv
+2025-03-29 10:19:00,902 - INFO - Created table: tblOverdueReports90SeriousReports
+2025-03-29 10:19:00,907 - INFO - Imported 0 rows into table: tblOverdueReports90SeriousReports
+2025-03-29 10:19:00,907 - INFO - Processing file: ./migration_output\extracted_data\tblOverdueReports90used.csv
+2025-03-29 10:19:00,918 - INFO - Created table: tblOverdueReports90used
+2025-03-29 10:19:00,923 - INFO - Imported 31 rows into table: tblOverdueReports90used
+2025-03-29 10:19:00,923 - INFO - Processing file: ./migration_output\extracted_data\temp table.csv
+2025-03-29 10:19:00,931 - INFO - Created table: temp table
+2025-03-29 10:19:00,932 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\temp table.csv: can't adapt type 'numpy.int64'
+2025-03-29 10:19:00,933 - INFO - Processing file: ./migration_output\extracted_data\tempdate.csv
+2025-03-29 10:19:00,939 - INFO - Created table: tempdate
+2025-03-29 10:19:00,941 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\tempdate.csv: column "ID" of relation "tempdate" does not exist
+LINE 1: INSERT INTO "tempdate" ("ID", "tempdate") VALUES (2,'1995-11...
+                                ^
+
+2025-03-29 10:19:00,942 - INFO - Processing file: ./migration_output\extracted_data\zonecost.csv
+2025-03-29 10:19:00,948 - INFO - Created table: zonecost
+2025-03-29 10:19:00,949 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\zonecost.csv: can't adapt type 'numpy.int64'
+2025-03-29 10:19:00,950 - INFO - Processing file: ./migration_output\extracted_data\zones.csv
+2025-03-29 10:19:00,956 - INFO - Created table: zones
+2025-03-29 10:19:00,958 - ERROR - Error importing data from CSV file ./migration_output\extracted_data\zones.csv: column "order" of relation "zones" does not exist
+LINE 1: INSERT INTO "zones" ("zone", "order") VALUES ('1',1),('10',1...
+                                     ^
+
+2025-03-29 10:19:00,958 - INFO - Data import completed at 2025-03-29 10:19:00.958950
+2025-03-29 10:19:00,959 - INFO - Total duration: 0:00:02.343808
+2025-03-29 10:19:00,959 - INFO - Created 33 tables and imported data into 24 tables

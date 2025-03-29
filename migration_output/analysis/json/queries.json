@@ -1,0 +1,162 @@
+[
+  {
+    "name": "bankbillable",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "data table Without Matching main_table",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "lookup city name",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "main",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "past due accounts",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qry_CollectionsProcess",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qry_CollectionsProcess Query",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qry_mailing label backup",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qry_mailing labels balance >0 and date > 20 days (all)",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qry_mailing labels balance>0 and date > 20 days",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qry_Zone Rollup",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qryPrintEnvelope",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qryReport2030",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qryReport3145",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qryReport4689",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qryReport90",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qryReportSeriousFromSmallClaims",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "qrySubformAfterOpen",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "Query2",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "reminder merchant query",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "sfq1",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "subform query",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "test",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "test subform query",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 1",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 10",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 11",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 12",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 13",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 14",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 15",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 16",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 2",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 3",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 4",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 5",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 6",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 7",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 8",
+    "sql": "-- SQL not available via pyodbc"
+  },
+  {
+    "name": "zone 9",
+    "sql": "-- SQL not available via pyodbc"
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "extraction_date": "2025-03-29T10:18:58.066526",
+  "tables": [
+    {
+      "name": "city names",
+      "csv_path": "./migration_output\\extracted_data\\city names.csv"
+    },
+    {
+      "name": "data table",
+      "csv_path": "./migration_output\\extracted_data\\data table.csv"
+    },
+    {
+      "name": "ink and paper color",
+      "csv_path": "./migration_output\\extracted_data\\ink and paper color.csv"
+    },
+    {
+      "name": "main_table",
+      "csv_path": "./migration_output\\extracted_data\\main_table.csv"
+    },
+    {
+      "name": "months",
+      "csv_path": "./migration_output\\extracted_data\\months.csv"
+    },
+    {
+      "name": "NotBankBillable",
+      "csv_path": "./migration_output\\extracted_data\\NotBankBillable.csv"
+    },
+    {
+      "name": "reminder_table",
+      "csv_path": "./migration_output\\extracted_data\\reminder_table.csv"
+    },
+    {
+      "name": "T053000A",
+      "csv_path": "./migration_output\\extracted_data\\T053000A.csv"
+    },
+    {
+      "name": "tblOverdueReports2030",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports2030.csv"
+    },
+    {
+      "name": "tblOverdueReports2030used",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports2030used.csv"
+    },
+    {
+      "name": "tblOverdueReports3145",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports3145.csv"
+    },
+    {
+      "name": "tblOverdueReports3145used",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports3145used.csv"
+    },
+    {
+      "name": "tblOverdueReports4689",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports4689.csv"
+    },
+    {
+      "name": "tblOverdueReports4689used",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports4689used.csv"
+    },
+    {
+      "name": "tblOverdueReports90",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports90.csv"
+    },
+    {
+      "name": "tblOverdueReports90SeriousReports",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports90SeriousReports.csv"
+    },
+    {
+      "name": "tblOverdueReports90used",
+      "csv_path": "./migration_output\\extracted_data\\tblOverdueReports90used.csv"
+    },
+    {
+      "name": "temp table",
+      "csv_path": "./migration_output\\extracted_data\\temp table.csv"
+    },
+    {
+      "name": "tempdate",
+      "csv_path": "./migration_output\\extracted_data\\tempdate.csv"
+    },
+    {
+      "name": "zonecost",
+      "csv_path": "./migration_output\\extracted_data\\zonecost.csv"
+    },
+    {
+      "name": "zones",
+      "csv_path": "./migration_output\\extracted_data\\zones.csv"
+    }
+  ],
+  "queries": [
+    {
+      "name": "bankbillable",
+      "csv_path": "./migration_output\\extracted_data\\query_bankbillable.csv"
+    },
+    {
+      "name": "data table Without Matching main_table",
+      "csv_path": "./migration_output\\extracted_data\\query_data table Without Matching main_table.csv"
+    },
+    {
+      "name": "main",
+      "csv_path": "./migration_output\\extracted_data\\query_main.csv"
+    },
+    {
+      "name": "past due accounts",
+      "csv_path": "./migration_output\\extracted_data\\query_past due accounts.csv"
+    },
+    {
+      "name": "qry_mailing label backup",
+      "csv_path": "./migration_output\\extracted_data\\query_qry_mailing label backup.csv"
+    },
+    {
+      "name": "qry_Zone Rollup",
+      "csv_path": "./migration_output\\extracted_data\\query_qry_Zone Rollup.csv"
+    },
+    {
+      "name": "qryReport2030",
+      "csv_path": "./migration_output\\extracted_data\\query_qryReport2030.csv"
+    },
+    {
+      "name": "qryReport3145",
+      "csv_path": "./migration_output\\extracted_data\\query_qryReport3145.csv"
+    },
+    {
+      "name": "qryReport4689",
+      "csv_path": "./migration_output\\extracted_data\\query_qryReport4689.csv"
+    },
+    {
+      "name": "qryReport90",
+      "csv_path": "./migration_output\\extracted_data\\query_qryReport90.csv"
+    },
+    {
+      "name": "qryReportSeriousFromSmallClaims",
+      "csv_path": "./migration_output\\extracted_data\\query_qryReportSeriousFromSmallClaims.csv"
+    },
+    {
+      "name": "reminder merchant query",
+      "csv_path": "./migration_output\\extracted_data\\query_reminder merchant query.csv"
+    }
+  ]
+}

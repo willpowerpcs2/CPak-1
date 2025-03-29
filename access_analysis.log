@@ -1,0 +1,668 @@
+2025-03-28 23:32:25,915 - INFO - Analysis started at 2025-03-28 23:32:25.915945
+2025-03-28 23:32:26,046 - ERROR - Error connecting to Access database: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+2025-03-28 23:53:49,835 - INFO - Analysis started at 2025-03-28 23:53:49.835756
+2025-03-28 23:53:50,519 - ERROR - Error connecting to Access database: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+2025-03-28 23:56:58,462 - INFO - Analysis started at 2025-03-28 23:56:58.462605
+2025-03-28 23:56:59,052 - ERROR - Error connecting to Access database: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+2025-03-29 00:04:29,710 - INFO - Analysis started at 2025-03-29 00:04:29.710217
+2025-03-29 00:04:29,960 - INFO - Connected to Access database: c:\users\owner\cpak\cpakdb.accdb
+2025-03-29 00:04:29,963 - INFO - Found 25 tables in the database
+2025-03-29 00:04:29,966 - INFO - Found 40 queries in the database
+2025-03-29 00:04:29,966 - INFO - Analyzing table: city names
+2025-03-29 00:04:30,020 - INFO - Analyzing table: data table
+2025-03-29 00:04:30,023 - INFO - Analyzing table: ink and paper color
+2025-03-29 00:04:30,025 - INFO - Analyzing table: main_table
+2025-03-29 00:04:30,028 - INFO - Analyzing table: months
+2025-03-29 00:04:30,029 - INFO - Analyzing table: NotBankBillable
+2025-03-29 00:04:30,031 - INFO - Analyzing table: old_data table as of 10/22/95
+2025-03-29 00:04:30,035 - INFO - Analyzing table: old_ink and paper color as of 10/22/95
+2025-03-29 00:04:30,036 - INFO - Analyzing table: old_main as of 10/22/95
+2025-03-29 00:04:30,038 - INFO - Analyzing table: reminder_table
+2025-03-29 00:04:30,039 - INFO - Analyzing table: T053000A
+2025-03-29 00:04:30,041 - INFO - Analyzing table: tblOverdueReports2030
+2025-03-29 00:04:30,042 - INFO - Analyzing table: tblOverdueReports2030_9/29/97
+2025-03-29 00:04:30,044 - INFO - Analyzing table: tblOverdueReports2030used
+2025-03-29 00:04:30,045 - INFO - Analyzing table: tblOverdueReports3145
+2025-03-29 00:04:30,047 - INFO - Analyzing table: tblOverdueReports3145used
+2025-03-29 00:04:30,048 - INFO - Analyzing table: tblOverdueReports4689
+2025-03-29 00:04:30,050 - INFO - Analyzing table: tblOverdueReports4689used
+2025-03-29 00:04:30,052 - INFO - Analyzing table: tblOverdueReports90
+2025-03-29 00:04:30,053 - INFO - Analyzing table: tblOverdueReports90SeriousReports
+2025-03-29 00:04:30,054 - INFO - Analyzing table: tblOverdueReports90used
+2025-03-29 00:04:30,056 - INFO - Analyzing table: temp table
+2025-03-29 00:04:30,057 - INFO - Analyzing table: tempdate
+2025-03-29 00:04:30,058 - INFO - Analyzing table: zonecost
+2025-03-29 00:04:30,059 - INFO - Analyzing table: zones
+2025-03-29 00:04:30,060 - INFO - Analyzing query: bankbillable
+2025-03-29 00:04:30,060 - INFO - Analyzing query: data table Without Matching main_table
+2025-03-29 00:04:30,060 - INFO - Analyzing query: lookup city name
+2025-03-29 00:04:30,061 - INFO - Analyzing query: main
+2025-03-29 00:04:30,061 - INFO - Analyzing query: past due accounts
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qry_CollectionsProcess
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qry_CollectionsProcess Query
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qry_mailing label backup
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qry_mailing labels balance >0 and date > 20 days (all)
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qry_mailing labels balance>0 and date > 20 days
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qry_Zone Rollup
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qryPrintEnvelope
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qryReport2030
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qryReport3145
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qryReport4689
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qryReport90
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qryReportSeriousFromSmallClaims
+2025-03-29 00:04:30,061 - INFO - Analyzing query: qrySubformAfterOpen
+2025-03-29 00:04:30,061 - INFO - Analyzing query: Query2
+2025-03-29 00:04:30,061 - INFO - Analyzing query: reminder merchant query
+2025-03-29 00:04:30,061 - INFO - Analyzing query: sfq1
+2025-03-29 00:04:30,061 - INFO - Analyzing query: subform query
+2025-03-29 00:04:30,061 - INFO - Analyzing query: test
+2025-03-29 00:04:30,061 - INFO - Analyzing query: test subform query
+2025-03-29 00:04:30,061 - INFO - Analyzing query: zone 1
+2025-03-29 00:04:30,061 - INFO - Analyzing query: zone 10
+2025-03-29 00:04:30,061 - INFO - Analyzing query: zone 11
+2025-03-29 00:04:30,061 - INFO - Analyzing query: zone 12
+2025-03-29 00:04:30,061 - INFO - Analyzing query: zone 13
+2025-03-29 00:04:30,061 - INFO - Analyzing query: zone 14
+2025-03-29 00:04:30,061 - INFO - Analyzing query: zone 15
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 16
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 2
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 3
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 4
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 5
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 6
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 7
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 8
+2025-03-29 00:04:30,062 - INFO - Analyzing query: zone 9
+2025-03-29 00:04:30,277 - INFO - Generated markdown reports in ./migration_output\analysis\markdown
+2025-03-29 00:04:30,287 - INFO - Generated JSON reports in ./migration_output\analysis\json
+2025-03-29 00:04:30,288 - INFO - Generated SQL schema in ./migration_output\analysis\sql\schema.sql
+2025-03-29 00:04:30,288 - INFO - Analysis completed at 2025-03-29 00:04:30.288705
+2025-03-29 00:04:30,288 - INFO - Total duration: 0:00:00.578488
+2025-03-29 00:04:30,288 - INFO - Generated reports in ./migration_output\analysis
+2025-03-29 00:06:01,439 - INFO - Analysis started at 2025-03-29 00:06:01.439822
+2025-03-29 00:06:01,664 - INFO - Connected to Access database: c:\users\owner\cpak\cpakdb.accdb
+2025-03-29 00:06:01,665 - INFO - Found 25 tables in the database
+2025-03-29 00:06:01,666 - INFO - Found 40 queries in the database
+2025-03-29 00:06:01,666 - INFO - Analyzing table: city names
+2025-03-29 00:06:01,671 - INFO - Analyzing table: data table
+2025-03-29 00:06:01,674 - INFO - Analyzing table: ink and paper color
+2025-03-29 00:06:01,676 - INFO - Analyzing table: main_table
+2025-03-29 00:06:01,677 - INFO - Analyzing table: months
+2025-03-29 00:06:01,679 - INFO - Analyzing table: NotBankBillable
+2025-03-29 00:06:01,680 - INFO - Analyzing table: old_data table as of 10/22/95
+2025-03-29 00:06:01,683 - INFO - Analyzing table: old_ink and paper color as of 10/22/95
+2025-03-29 00:06:01,684 - INFO - Analyzing table: old_main as of 10/22/95
+2025-03-29 00:06:01,686 - INFO - Analyzing table: reminder_table
+2025-03-29 00:06:01,687 - INFO - Analyzing table: T053000A
+2025-03-29 00:06:01,688 - INFO - Analyzing table: tblOverdueReports2030
+2025-03-29 00:06:01,690 - INFO - Analyzing table: tblOverdueReports2030_9/29/97
+2025-03-29 00:06:01,691 - INFO - Analyzing table: tblOverdueReports2030used
+2025-03-29 00:06:01,693 - INFO - Analyzing table: tblOverdueReports3145
+2025-03-29 00:06:01,694 - INFO - Analyzing table: tblOverdueReports3145used
+2025-03-29 00:06:01,696 - INFO - Analyzing table: tblOverdueReports4689
+2025-03-29 00:06:01,697 - INFO - Analyzing table: tblOverdueReports4689used
+2025-03-29 00:06:01,699 - INFO - Analyzing table: tblOverdueReports90
+2025-03-29 00:06:01,700 - INFO - Analyzing table: tblOverdueReports90SeriousReports
+2025-03-29 00:06:01,701 - INFO - Analyzing table: tblOverdueReports90used
+2025-03-29 00:06:01,703 - INFO - Analyzing table: temp table
+2025-03-29 00:06:01,704 - INFO - Analyzing table: tempdate
+2025-03-29 00:06:01,705 - INFO - Analyzing table: zonecost
+2025-03-29 00:06:01,706 - INFO - Analyzing table: zones
+2025-03-29 00:06:01,707 - INFO - Analyzing query: bankbillable
+2025-03-29 00:06:01,707 - INFO - Analyzing query: data table Without Matching main_table
+2025-03-29 00:06:01,707 - INFO - Analyzing query: lookup city name
+2025-03-29 00:06:01,707 - INFO - Analyzing query: main
+2025-03-29 00:06:01,707 - INFO - Analyzing query: past due accounts
+2025-03-29 00:06:01,707 - INFO - Analyzing query: qry_CollectionsProcess
+2025-03-29 00:06:01,707 - INFO - Analyzing query: qry_CollectionsProcess Query
+2025-03-29 00:06:01,707 - INFO - Analyzing query: qry_mailing label backup
+2025-03-29 00:06:01,707 - INFO - Analyzing query: qry_mailing labels balance >0 and date > 20 days (all)
+2025-03-29 00:06:01,707 - INFO - Analyzing query: qry_mailing labels balance>0 and date > 20 days
+2025-03-29 00:06:01,707 - INFO - Analyzing query: qry_Zone Rollup
+2025-03-29 00:06:01,707 - INFO - Analyzing query: qryPrintEnvelope
+2025-03-29 00:06:01,708 - INFO - Analyzing query: qryReport2030
+2025-03-29 00:06:01,708 - INFO - Analyzing query: qryReport3145
+2025-03-29 00:06:01,708 - INFO - Analyzing query: qryReport4689
+2025-03-29 00:06:01,708 - INFO - Analyzing query: qryReport90
+2025-03-29 00:06:01,708 - INFO - Analyzing query: qryReportSeriousFromSmallClaims
+2025-03-29 00:06:01,708 - INFO - Analyzing query: qrySubformAfterOpen
+2025-03-29 00:06:01,708 - INFO - Analyzing query: Query2
+2025-03-29 00:06:01,708 - INFO - Analyzing query: reminder merchant query
+2025-03-29 00:06:01,708 - INFO - Analyzing query: sfq1
+2025-03-29 00:06:01,708 - INFO - Analyzing query: subform query
+2025-03-29 00:06:01,708 - INFO - Analyzing query: test
+2025-03-29 00:06:01,708 - INFO - Analyzing query: test subform query
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 1
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 10
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 11
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 12
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 13
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 14
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 15
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 16
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 2
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 3
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 4
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 5
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 6
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 7
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 8
+2025-03-29 00:06:01,708 - INFO - Analyzing query: zone 9
+2025-03-29 00:06:02,086 - INFO - Generated markdown reports in ./migration_output\analysis\markdown
+2025-03-29 00:06:02,097 - INFO - Generated JSON reports in ./migration_output\analysis\json
+2025-03-29 00:06:02,097 - INFO - Generated SQL schema in ./migration_output\analysis\sql\schema.sql
+2025-03-29 00:06:02,097 - INFO - Analysis completed at 2025-03-29 00:06:02.097764
+2025-03-29 00:06:02,097 - INFO - Total duration: 0:00:00.657942
+2025-03-29 00:06:02,097 - INFO - Generated reports in ./migration_output\analysis
+2025-03-29 00:11:16,575 - INFO - Analysis started at 2025-03-29 00:11:16.575184
+2025-03-29 00:11:16,755 - INFO - Connected to Access database: c:\users\owner\cpak\cpakdb.accdb
+2025-03-29 00:11:16,757 - INFO - Found 25 tables in the database
+2025-03-29 00:11:16,758 - INFO - Found 40 queries in the database
+2025-03-29 00:11:16,758 - INFO - Analyzing table: city names
+2025-03-29 00:11:16,763 - INFO - Analyzing table: data table
+2025-03-29 00:11:16,766 - INFO - Analyzing table: ink and paper color
+2025-03-29 00:11:16,767 - INFO - Analyzing table: main_table
+2025-03-29 00:11:16,769 - INFO - Analyzing table: months
+2025-03-29 00:11:16,770 - INFO - Analyzing table: NotBankBillable
+2025-03-29 00:11:16,772 - INFO - Analyzing table: old_data table as of 10/22/95
+2025-03-29 00:11:16,774 - INFO - Analyzing table: old_ink and paper color as of 10/22/95
+2025-03-29 00:11:16,776 - INFO - Analyzing table: old_main as of 10/22/95
+2025-03-29 00:11:16,777 - INFO - Analyzing table: reminder_table
+2025-03-29 00:11:16,779 - INFO - Analyzing table: T053000A
+2025-03-29 00:11:16,780 - INFO - Analyzing table: tblOverdueReports2030
+2025-03-29 00:11:16,781 - INFO - Analyzing table: tblOverdueReports2030_9/29/97
+2025-03-29 00:11:16,783 - INFO - Analyzing table: tblOverdueReports2030used
+2025-03-29 00:11:16,784 - INFO - Analyzing table: tblOverdueReports3145
+2025-03-29 00:11:16,786 - INFO - Analyzing table: tblOverdueReports3145used
+2025-03-29 00:11:16,787 - INFO - Analyzing table: tblOverdueReports4689
+2025-03-29 00:11:16,789 - INFO - Analyzing table: tblOverdueReports4689used
+2025-03-29 00:11:16,790 - INFO - Analyzing table: tblOverdueReports90
+2025-03-29 00:11:16,792 - INFO - Analyzing table: tblOverdueReports90SeriousReports
+2025-03-29 00:11:16,793 - INFO - Analyzing table: tblOverdueReports90used
+2025-03-29 00:11:16,794 - INFO - Analyzing table: temp table
+2025-03-29 00:11:16,795 - INFO - Analyzing table: tempdate
+2025-03-29 00:11:16,796 - INFO - Analyzing table: zonecost
+2025-03-29 00:11:16,797 - INFO - Analyzing table: zones
+2025-03-29 00:11:16,799 - INFO - Analyzing query: bankbillable
+2025-03-29 00:11:16,799 - INFO - Analyzing query: data table Without Matching main_table
+2025-03-29 00:11:16,799 - INFO - Analyzing query: lookup city name
+2025-03-29 00:11:16,799 - INFO - Analyzing query: main
+2025-03-29 00:11:16,799 - INFO - Analyzing query: past due accounts
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qry_CollectionsProcess
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qry_CollectionsProcess Query
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qry_mailing label backup
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qry_mailing labels balance >0 and date > 20 days (all)
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qry_mailing labels balance>0 and date > 20 days
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qry_Zone Rollup
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qryPrintEnvelope
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qryReport2030
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qryReport3145
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qryReport4689
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qryReport90
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qryReportSeriousFromSmallClaims
+2025-03-29 00:11:16,799 - INFO - Analyzing query: qrySubformAfterOpen
+2025-03-29 00:11:16,799 - INFO - Analyzing query: Query2
+2025-03-29 00:11:16,799 - INFO - Analyzing query: reminder merchant query
+2025-03-29 00:11:16,799 - INFO - Analyzing query: sfq1
+2025-03-29 00:11:16,799 - INFO - Analyzing query: subform query
+2025-03-29 00:11:16,799 - INFO - Analyzing query: test
+2025-03-29 00:11:16,799 - INFO - Analyzing query: test subform query
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 1
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 10
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 11
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 12
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 13
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 14
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 15
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 16
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 2
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 3
+2025-03-29 00:11:16,799 - INFO - Analyzing query: zone 4
+2025-03-29 00:11:16,800 - INFO - Analyzing query: zone 5
+2025-03-29 00:11:16,800 - INFO - Analyzing query: zone 6
+2025-03-29 00:11:16,800 - INFO - Analyzing query: zone 7
+2025-03-29 00:11:16,800 - INFO - Analyzing query: zone 8
+2025-03-29 00:11:16,800 - INFO - Analyzing query: zone 9
+2025-03-29 00:11:16,913 - INFO - Generated markdown reports in ./migration_output\analysis\markdown
+2025-03-29 00:11:16,923 - INFO - Generated JSON reports in ./migration_output\analysis\json
+2025-03-29 00:11:16,924 - INFO - Generated SQL schema in ./migration_output\analysis\sql\schema.sql
+2025-03-29 00:11:16,924 - INFO - Analysis completed at 2025-03-29 00:11:16.924578
+2025-03-29 00:11:16,924 - INFO - Total duration: 0:00:00.349394
+2025-03-29 00:11:16,924 - INFO - Generated reports in ./migration_output\analysis
+2025-03-29 00:11:51,424 - INFO - Analysis started at 2025-03-29 00:11:51.424205
+2025-03-29 00:11:51,598 - INFO - Connected to Access database: c:\users\owner\cpak\cpakdb.accdb
+2025-03-29 00:11:51,600 - INFO - Found 25 tables in the database
+2025-03-29 00:11:51,601 - INFO - Found 40 queries in the database
+2025-03-29 00:11:51,601 - INFO - Analyzing table: city names
+2025-03-29 00:11:51,605 - INFO - Analyzing table: data table
+2025-03-29 00:11:51,608 - INFO - Analyzing table: ink and paper color
+2025-03-29 00:11:51,610 - INFO - Analyzing table: main_table
+2025-03-29 00:11:51,612 - INFO - Analyzing table: months
+2025-03-29 00:11:51,613 - INFO - Analyzing table: NotBankBillable
+2025-03-29 00:11:51,615 - INFO - Analyzing table: old_data table as of 10/22/95
+2025-03-29 00:11:51,617 - INFO - Analyzing table: old_ink and paper color as of 10/22/95
+2025-03-29 00:11:51,618 - INFO - Analyzing table: old_main as of 10/22/95
+2025-03-29 00:11:51,620 - INFO - Analyzing table: reminder_table
+2025-03-29 00:11:51,621 - INFO - Analyzing table: T053000A
+2025-03-29 00:11:51,622 - INFO - Analyzing table: tblOverdueReports2030
+2025-03-29 00:11:51,624 - INFO - Analyzing table: tblOverdueReports2030_9/29/97
+2025-03-29 00:11:51,625 - INFO - Analyzing table: tblOverdueReports2030used
+2025-03-29 00:11:51,627 - INFO - Analyzing table: tblOverdueReports3145
+2025-03-29 00:11:51,628 - INFO - Analyzing table: tblOverdueReports3145used
+2025-03-29 00:11:51,630 - INFO - Analyzing table: tblOverdueReports4689
+2025-03-29 00:11:51,631 - INFO - Analyzing table: tblOverdueReports4689used
+2025-03-29 00:11:51,633 - INFO - Analyzing table: tblOverdueReports90
+2025-03-29 00:11:51,634 - INFO - Analyzing table: tblOverdueReports90SeriousReports
+2025-03-29 00:11:51,635 - INFO - Analyzing table: tblOverdueReports90used
+2025-03-29 00:11:51,637 - INFO - Analyzing table: temp table
+2025-03-29 00:11:51,638 - INFO - Analyzing table: tempdate
+2025-03-29 00:11:51,639 - INFO - Analyzing table: zonecost
+2025-03-29 00:11:51,640 - INFO - Analyzing table: zones
+2025-03-29 00:11:51,641 - INFO - Analyzing query: bankbillable
+2025-03-29 00:11:51,641 - INFO - Analyzing query: data table Without Matching main_table
+2025-03-29 00:11:51,641 - INFO - Analyzing query: lookup city name
+2025-03-29 00:11:51,641 - INFO - Analyzing query: main
+2025-03-29 00:11:51,641 - INFO - Analyzing query: past due accounts
+2025-03-29 00:11:51,641 - INFO - Analyzing query: qry_CollectionsProcess
+2025-03-29 00:11:51,641 - INFO - Analyzing query: qry_CollectionsProcess Query
+2025-03-29 00:11:51,641 - INFO - Analyzing query: qry_mailing label backup
+2025-03-29 00:11:51,641 - INFO - Analyzing query: qry_mailing labels balance >0 and date > 20 days (all)
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qry_mailing labels balance>0 and date > 20 days
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qry_Zone Rollup
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qryPrintEnvelope
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qryReport2030
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qryReport3145
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qryReport4689
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qryReport90
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qryReportSeriousFromSmallClaims
+2025-03-29 00:11:51,642 - INFO - Analyzing query: qrySubformAfterOpen
+2025-03-29 00:11:51,642 - INFO - Analyzing query: Query2
+2025-03-29 00:11:51,642 - INFO - Analyzing query: reminder merchant query
+2025-03-29 00:11:51,642 - INFO - Analyzing query: sfq1
+2025-03-29 00:11:51,642 - INFO - Analyzing query: subform query
+2025-03-29 00:11:51,642 - INFO - Analyzing query: test
+2025-03-29 00:11:51,642 - INFO - Analyzing query: test subform query
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 1
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 10
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 11
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 12
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 13
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 14
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 15
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 16
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 2
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 3
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 4
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 5
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 6
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 7
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 8
+2025-03-29 00:11:51,642 - INFO - Analyzing query: zone 9
+2025-03-29 00:11:51,764 - INFO - Generated markdown reports in ./migration_output\analysis\markdown
+2025-03-29 00:11:51,775 - INFO - Generated JSON reports in ./migration_output\analysis\json
+2025-03-29 00:11:51,775 - INFO - Generated SQL schema in ./migration_output\analysis\sql\schema.sql
+2025-03-29 00:11:51,775 - INFO - Analysis completed at 2025-03-29 00:11:51.775948
+2025-03-29 00:11:51,775 - INFO - Total duration: 0:00:00.351743
+2025-03-29 00:11:51,776 - INFO - Generated reports in ./migration_output\analysis
+2025-03-29 00:14:55,303 - INFO - Analysis started at 2025-03-29 00:14:55.303070
+2025-03-29 00:14:55,484 - INFO - Connected to Access database: c:\users\owner\cpak\cpakdb.accdb
+2025-03-29 00:14:55,486 - INFO - Found 25 tables in the database
+2025-03-29 00:14:55,487 - INFO - Found 40 queries in the database
+2025-03-29 00:14:55,487 - INFO - Analyzing table: city names
+2025-03-29 00:14:55,491 - INFO - Analyzing table: data table
+2025-03-29 00:14:55,494 - INFO - Analyzing table: ink and paper color
+2025-03-29 00:14:55,496 - INFO - Analyzing table: main_table
+2025-03-29 00:14:55,498 - INFO - Analyzing table: months
+2025-03-29 00:14:55,499 - INFO - Analyzing table: NotBankBillable
+2025-03-29 00:14:55,501 - INFO - Analyzing table: old_data table as of 10/22/95
+2025-03-29 00:14:55,503 - INFO - Analyzing table: old_ink and paper color as of 10/22/95
+2025-03-29 00:14:55,504 - INFO - Analyzing table: old_main as of 10/22/95
+2025-03-29 00:14:55,505 - INFO - Analyzing table: reminder_table
+2025-03-29 00:14:55,507 - INFO - Analyzing table: T053000A
+2025-03-29 00:14:55,508 - INFO - Analyzing table: tblOverdueReports2030
+2025-03-29 00:14:55,510 - INFO - Analyzing table: tblOverdueReports2030_9/29/97
+2025-03-29 00:14:55,511 - INFO - Analyzing table: tblOverdueReports2030used
+2025-03-29 00:14:55,512 - INFO - Analyzing table: tblOverdueReports3145
+2025-03-29 00:14:55,514 - INFO - Analyzing table: tblOverdueReports3145used
+2025-03-29 00:14:55,515 - INFO - Analyzing table: tblOverdueReports4689
+2025-03-29 00:14:55,517 - INFO - Analyzing table: tblOverdueReports4689used
+2025-03-29 00:14:55,518 - INFO - Analyzing table: tblOverdueReports90
+2025-03-29 00:14:55,520 - INFO - Analyzing table: tblOverdueReports90SeriousReports
+2025-03-29 00:14:55,521 - INFO - Analyzing table: tblOverdueReports90used
+2025-03-29 00:14:55,523 - INFO - Analyzing table: temp table
+2025-03-29 00:14:55,524 - INFO - Analyzing table: tempdate
+2025-03-29 00:14:55,525 - INFO - Analyzing table: zonecost
+2025-03-29 00:14:55,526 - INFO - Analyzing table: zones
+2025-03-29 00:14:55,527 - INFO - Analyzing query: bankbillable
+2025-03-29 00:14:55,527 - INFO - Analyzing query: data table Without Matching main_table
+2025-03-29 00:14:55,527 - INFO - Analyzing query: lookup city name
+2025-03-29 00:14:55,527 - INFO - Analyzing query: main
+2025-03-29 00:14:55,527 - INFO - Analyzing query: past due accounts
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qry_CollectionsProcess
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qry_CollectionsProcess Query
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qry_mailing label backup
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qry_mailing labels balance >0 and date > 20 days (all)
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qry_mailing labels balance>0 and date > 20 days
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qry_Zone Rollup
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qryPrintEnvelope
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qryReport2030
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qryReport3145
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qryReport4689
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qryReport90
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qryReportSeriousFromSmallClaims
+2025-03-29 00:14:55,527 - INFO - Analyzing query: qrySubformAfterOpen
+2025-03-29 00:14:55,527 - INFO - Analyzing query: Query2
+2025-03-29 00:14:55,527 - INFO - Analyzing query: reminder merchant query
+2025-03-29 00:14:55,527 - INFO - Analyzing query: sfq1
+2025-03-29 00:14:55,528 - INFO - Analyzing query: subform query
+2025-03-29 00:14:55,528 - INFO - Analyzing query: test
+2025-03-29 00:14:55,528 - INFO - Analyzing query: test subform query
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 1
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 10
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 11
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 12
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 13
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 14
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 15
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 16
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 2
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 3
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 4
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 5
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 6
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 7
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 8
+2025-03-29 00:14:55,528 - INFO - Analyzing query: zone 9
+2025-03-29 00:14:55,634 - INFO - Generated markdown reports in ./migration_output\analysis\markdown
+2025-03-29 00:14:55,644 - INFO - Generated JSON reports in ./migration_output\analysis\json
+2025-03-29 00:14:55,645 - INFO - Generated SQL schema in ./migration_output\analysis\sql\schema.sql
+2025-03-29 00:14:55,645 - INFO - Analysis completed at 2025-03-29 00:14:55.645395
+2025-03-29 00:14:55,645 - INFO - Total duration: 0:00:00.342325
+2025-03-29 00:14:55,645 - INFO - Generated reports in ./migration_output\analysis
+2025-03-29 00:23:06,663 - INFO - Analysis started at 2025-03-29 00:23:06.663753
+2025-03-29 00:23:06,846 - INFO - Connected to Access database: c:\users\owner\cpak\cpakdb.accdb
+2025-03-29 00:23:06,847 - INFO - Found 25 tables in the database
+2025-03-29 00:23:06,849 - INFO - Found 40 queries in the database
+2025-03-29 00:23:06,849 - INFO - Analyzing table: city names
+2025-03-29 00:23:06,853 - INFO - Analyzing table: data table
+2025-03-29 00:23:06,856 - INFO - Analyzing table: ink and paper color
+2025-03-29 00:23:06,858 - INFO - Analyzing table: main_table
+2025-03-29 00:23:06,859 - INFO - Analyzing table: months
+2025-03-29 00:23:06,861 - INFO - Analyzing table: NotBankBillable
+2025-03-29 00:23:06,862 - INFO - Analyzing table: old_data table as of 10/22/95
+2025-03-29 00:23:06,865 - INFO - Analyzing table: old_ink and paper color as of 10/22/95
+2025-03-29 00:23:06,866 - INFO - Analyzing table: old_main as of 10/22/95
+2025-03-29 00:23:06,867 - INFO - Analyzing table: reminder_table
+2025-03-29 00:23:06,869 - INFO - Analyzing table: T053000A
+2025-03-29 00:23:06,870 - INFO - Analyzing table: tblOverdueReports2030
+2025-03-29 00:23:06,871 - INFO - Analyzing table: tblOverdueReports2030_9/29/97
+2025-03-29 00:23:06,873 - INFO - Analyzing table: tblOverdueReports2030used
+2025-03-29 00:23:06,874 - INFO - Analyzing table: tblOverdueReports3145
+2025-03-29 00:23:06,876 - INFO - Analyzing table: tblOverdueReports3145used
+2025-03-29 00:23:06,877 - INFO - Analyzing table: tblOverdueReports4689
+2025-03-29 00:23:06,879 - INFO - Analyzing table: tblOverdueReports4689used
+2025-03-29 00:23:06,880 - INFO - Analyzing table: tblOverdueReports90
+2025-03-29 00:23:06,882 - INFO - Analyzing table: tblOverdueReports90SeriousReports
+2025-03-29 00:23:06,883 - INFO - Analyzing table: tblOverdueReports90used
+2025-03-29 00:23:06,885 - INFO - Analyzing table: temp table
+2025-03-29 00:23:06,886 - INFO - Analyzing table: tempdate
+2025-03-29 00:23:06,887 - INFO - Analyzing table: zonecost
+2025-03-29 00:23:06,888 - INFO - Analyzing table: zones
+2025-03-29 00:23:06,889 - INFO - Analyzing query: bankbillable
+2025-03-29 00:23:06,889 - INFO - Analyzing query: data table Without Matching main_table
+2025-03-29 00:23:06,889 - INFO - Analyzing query: lookup city name
+2025-03-29 00:23:06,889 - INFO - Analyzing query: main
+2025-03-29 00:23:06,889 - INFO - Analyzing query: past due accounts
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qry_CollectionsProcess
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qry_CollectionsProcess Query
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qry_mailing label backup
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qry_mailing labels balance >0 and date > 20 days (all)
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qry_mailing labels balance>0 and date > 20 days
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qry_Zone Rollup
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qryPrintEnvelope
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qryReport2030
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qryReport3145
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qryReport4689
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qryReport90
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qryReportSeriousFromSmallClaims
+2025-03-29 00:23:06,889 - INFO - Analyzing query: qrySubformAfterOpen
+2025-03-29 00:23:06,889 - INFO - Analyzing query: Query2
+2025-03-29 00:23:06,889 - INFO - Analyzing query: reminder merchant query
+2025-03-29 00:23:06,889 - INFO - Analyzing query: sfq1
+2025-03-29 00:23:06,890 - INFO - Analyzing query: subform query
+2025-03-29 00:23:06,890 - INFO - Analyzing query: test
+2025-03-29 00:23:06,890 - INFO - Analyzing query: test subform query
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 1
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 10
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 11
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 12
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 13
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 14
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 15
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 16
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 2
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 3
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 4
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 5
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 6
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 7
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 8
+2025-03-29 00:23:06,890 - INFO - Analyzing query: zone 9
+2025-03-29 00:23:07,014 - INFO - Generated markdown reports in ./migration_output\analysis\markdown
+2025-03-29 00:23:07,025 - INFO - Generated JSON reports in ./migration_output\analysis\json
+2025-03-29 00:23:07,026 - INFO - Generated SQL schema in ./migration_output\analysis\sql\schema.sql
+2025-03-29 00:23:07,026 - INFO - Analysis completed at 2025-03-29 00:23:07.026564
+2025-03-29 00:23:07,026 - INFO - Total duration: 0:00:00.362811
+2025-03-29 00:23:07,026 - INFO - Generated reports in ./migration_output\analysis
+2025-03-29 09:35:24,722 - INFO - Analysis started at 2025-03-29 09:35:24.722246
+2025-03-29 09:35:25,284 - ERROR - Error connecting to Access database: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+2025-03-29 09:36:22,580 - INFO - Analysis started at 2025-03-29 09:36:22.580628
+2025-03-29 09:36:22,786 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 09:36:22,789 - INFO - Found 25 tables in the database
+2025-03-29 09:36:22,790 - INFO - Found 40 queries in the database
+2025-03-29 09:36:22,790 - INFO - Analyzing table: city names
+2025-03-29 09:36:22,809 - INFO - Analyzing table: data table
+2025-03-29 09:36:22,813 - INFO - Analyzing table: ink and paper color
+2025-03-29 09:36:22,816 - INFO - Analyzing table: main_table
+2025-03-29 09:36:22,818 - INFO - Analyzing table: months
+2025-03-29 09:36:22,820 - INFO - Analyzing table: NotBankBillable
+2025-03-29 09:36:22,822 - INFO - Analyzing table: old_data table as of 10/22/95
+2025-03-29 09:36:22,826 - INFO - Analyzing table: old_ink and paper color as of 10/22/95
+2025-03-29 09:36:22,828 - INFO - Analyzing table: old_main as of 10/22/95
+2025-03-29 09:36:22,830 - INFO - Analyzing table: reminder_table
+2025-03-29 09:36:22,832 - INFO - Analyzing table: T053000A
+2025-03-29 09:36:22,834 - INFO - Analyzing table: tblOverdueReports2030
+2025-03-29 09:36:22,836 - INFO - Analyzing table: tblOverdueReports2030_9/29/97
+2025-03-29 09:36:22,837 - INFO - Analyzing table: tblOverdueReports2030used
+2025-03-29 09:36:22,839 - INFO - Analyzing table: tblOverdueReports3145
+2025-03-29 09:36:22,841 - INFO - Analyzing table: tblOverdueReports3145used
+2025-03-29 09:36:22,843 - INFO - Analyzing table: tblOverdueReports4689
+2025-03-29 09:36:22,845 - INFO - Analyzing table: tblOverdueReports4689used
+2025-03-29 09:36:22,847 - INFO - Analyzing table: tblOverdueReports90
+2025-03-29 09:36:22,848 - INFO - Analyzing table: tblOverdueReports90SeriousReports
+2025-03-29 09:36:22,850 - INFO - Analyzing table: tblOverdueReports90used
+2025-03-29 09:36:22,852 - INFO - Analyzing table: temp table
+2025-03-29 09:36:22,853 - INFO - Analyzing table: tempdate
+2025-03-29 09:36:22,855 - INFO - Analyzing table: zonecost
+2025-03-29 09:36:22,857 - INFO - Analyzing table: zones
+2025-03-29 09:36:22,858 - INFO - Analyzing query: bankbillable
+2025-03-29 09:36:22,858 - INFO - Analyzing query: data table Without Matching main_table
+2025-03-29 09:36:22,858 - INFO - Analyzing query: lookup city name
+2025-03-29 09:36:22,858 - INFO - Analyzing query: main
+2025-03-29 09:36:22,858 - INFO - Analyzing query: past due accounts
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qry_CollectionsProcess
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qry_CollectionsProcess Query
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qry_mailing label backup
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qry_mailing labels balance >0 and date > 20 days (all)
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qry_mailing labels balance>0 and date > 20 days
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qry_Zone Rollup
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qryPrintEnvelope
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qryReport2030
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qryReport3145
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qryReport4689
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qryReport90
+2025-03-29 09:36:22,858 - INFO - Analyzing query: qryReportSeriousFromSmallClaims
+2025-03-29 09:36:22,859 - INFO - Analyzing query: qrySubformAfterOpen
+2025-03-29 09:36:22,859 - INFO - Analyzing query: Query2
+2025-03-29 09:36:22,859 - INFO - Analyzing query: reminder merchant query
+2025-03-29 09:36:22,859 - INFO - Analyzing query: sfq1
+2025-03-29 09:36:22,859 - INFO - Analyzing query: subform query
+2025-03-29 09:36:22,859 - INFO - Analyzing query: test
+2025-03-29 09:36:22,859 - INFO - Analyzing query: test subform query
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 1
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 10
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 11
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 12
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 13
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 14
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 15
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 16
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 2
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 3
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 4
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 5
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 6
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 7
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 8
+2025-03-29 09:36:22,859 - INFO - Analyzing query: zone 9
+2025-03-29 09:36:22,973 - INFO - Generated markdown reports in ./migration_output\analysis\markdown
+2025-03-29 09:36:22,984 - INFO - Generated JSON reports in ./migration_output\analysis\json
+2025-03-29 09:36:22,984 - INFO - Generated SQL schema in ./migration_output\analysis\sql\schema.sql
+2025-03-29 09:36:22,984 - INFO - Analysis completed at 2025-03-29 09:36:22.984958
+2025-03-29 09:36:22,985 - INFO - Total duration: 0:00:00.404330
+2025-03-29 09:36:22,985 - INFO - Generated reports in ./migration_output\analysis
+2025-03-29 09:36:41,320 - INFO - Analysis started at 2025-03-29 09:36:41.320591
+2025-03-29 09:36:41,496 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 09:36:41,497 - INFO - Found 25 tables in the database
+2025-03-29 09:36:41,498 - INFO - Found 40 queries in the database
+2025-03-29 09:36:41,498 - INFO - Analyzing table: city names
+2025-03-29 09:36:41,503 - INFO - Analyzing table: data table
+2025-03-29 09:36:41,506 - INFO - Analyzing table: ink and paper color
+2025-03-29 09:36:41,508 - INFO - Analyzing table: main_table
+2025-03-29 09:36:41,509 - INFO - Analyzing table: months
+2025-03-29 09:36:41,511 - INFO - Analyzing table: NotBankBillable
+2025-03-29 09:36:41,512 - INFO - Analyzing table: old_data table as of 10/22/95
+2025-03-29 09:36:41,515 - INFO - Analyzing table: old_ink and paper color as of 10/22/95
+2025-03-29 09:36:41,516 - INFO - Analyzing table: old_main as of 10/22/95
+2025-03-29 09:36:41,518 - INFO - Analyzing table: reminder_table
+2025-03-29 09:36:41,519 - INFO - Analyzing table: T053000A
+2025-03-29 09:36:41,520 - INFO - Analyzing table: tblOverdueReports2030
+2025-03-29 09:36:41,522 - INFO - Analyzing table: tblOverdueReports2030_9/29/97
+2025-03-29 09:36:41,524 - INFO - Analyzing table: tblOverdueReports2030used
+2025-03-29 09:36:41,525 - INFO - Analyzing table: tblOverdueReports3145
+2025-03-29 09:36:41,527 - INFO - Analyzing table: tblOverdueReports3145used
+2025-03-29 09:36:41,528 - INFO - Analyzing table: tblOverdueReports4689
+2025-03-29 09:36:41,530 - INFO - Analyzing table: tblOverdueReports4689used
+2025-03-29 09:36:41,531 - INFO - Analyzing table: tblOverdueReports90
+2025-03-29 09:36:41,533 - INFO - Analyzing table: tblOverdueReports90SeriousReports
+2025-03-29 09:36:41,534 - INFO - Analyzing table: tblOverdueReports90used
+2025-03-29 09:36:41,536 - INFO - Analyzing table: temp table
+2025-03-29 09:36:41,537 - INFO - Analyzing table: tempdate
+2025-03-29 09:36:41,538 - INFO - Analyzing table: zonecost
+2025-03-29 09:36:41,539 - INFO - Analyzing table: zones
+2025-03-29 09:36:41,540 - INFO - Analyzing query: bankbillable
+2025-03-29 09:36:41,540 - INFO - Analyzing query: data table Without Matching main_table
+2025-03-29 09:36:41,540 - INFO - Analyzing query: lookup city name
+2025-03-29 09:36:41,540 - INFO - Analyzing query: main
+2025-03-29 09:36:41,540 - INFO - Analyzing query: past due accounts
+2025-03-29 09:36:41,540 - INFO - Analyzing query: qry_CollectionsProcess
+2025-03-29 09:36:41,540 - INFO - Analyzing query: qry_CollectionsProcess Query
+2025-03-29 09:36:41,540 - INFO - Analyzing query: qry_mailing label backup
+2025-03-29 09:36:41,540 - INFO - Analyzing query: qry_mailing labels balance >0 and date > 20 days (all)
+2025-03-29 09:36:41,540 - INFO - Analyzing query: qry_mailing labels balance>0 and date > 20 days
+2025-03-29 09:36:41,540 - INFO - Analyzing query: qry_Zone Rollup
+2025-03-29 09:36:41,540 - INFO - Analyzing query: qryPrintEnvelope
+2025-03-29 09:36:41,541 - INFO - Analyzing query: qryReport2030
+2025-03-29 09:36:41,541 - INFO - Analyzing query: qryReport3145
+2025-03-29 09:36:41,541 - INFO - Analyzing query: qryReport4689
+2025-03-29 09:36:41,541 - INFO - Analyzing query: qryReport90
+2025-03-29 09:36:41,541 - INFO - Analyzing query: qryReportSeriousFromSmallClaims
+2025-03-29 09:36:41,541 - INFO - Analyzing query: qrySubformAfterOpen
+2025-03-29 09:36:41,541 - INFO - Analyzing query: Query2
+2025-03-29 09:36:41,541 - INFO - Analyzing query: reminder merchant query
+2025-03-29 09:36:41,541 - INFO - Analyzing query: sfq1
+2025-03-29 09:36:41,541 - INFO - Analyzing query: subform query
+2025-03-29 09:36:41,541 - INFO - Analyzing query: test
+2025-03-29 09:36:41,541 - INFO - Analyzing query: test subform query
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 1
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 10
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 11
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 12
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 13
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 14
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 15
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 16
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 2
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 3
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 4
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 5
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 6
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 7
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 8
+2025-03-29 09:36:41,541 - INFO - Analyzing query: zone 9
+2025-03-29 09:36:41,662 - INFO - Generated markdown reports in ./migration_output\analysis\markdown
+2025-03-29 09:36:41,672 - INFO - Generated JSON reports in ./migration_output\analysis\json
+2025-03-29 09:36:41,673 - INFO - Generated SQL schema in ./migration_output\analysis\sql\schema.sql
+2025-03-29 09:36:41,673 - INFO - Analysis completed at 2025-03-29 09:36:41.673466
+2025-03-29 09:36:41,673 - INFO - Total duration: 0:00:00.352875
+2025-03-29 09:36:41,673 - INFO - Generated reports in ./migration_output\analysis
+2025-03-29 09:43:30,559 - INFO - Analysis started at 2025-03-29 09:43:30.559094
+2025-03-29 09:43:30,736 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 09:43:30,737 - INFO - Found 25 tables in the database
+2025-03-29 09:43:30,844 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 09:43:30,844 - INFO - Analysis completed at 2025-03-29 09:43:30.844899
+2025-03-29 09:43:30,844 - INFO - Total duration: 0:00:00.285805
+2025-03-29 09:54:57,607 - INFO - Analysis started at 2025-03-29 09:54:57.607513
+2025-03-29 09:54:57,788 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 09:54:57,789 - INFO - Found 25 tables in the database
+2025-03-29 09:54:57,897 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 09:54:57,897 - INFO - Analysis completed at 2025-03-29 09:54:57.897718
+2025-03-29 09:54:57,897 - INFO - Total duration: 0:00:00.290205
+2025-03-29 09:57:04,666 - INFO - Analysis started at 2025-03-29 09:57:04.666479
+2025-03-29 09:57:04,839 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 09:57:04,841 - INFO - Found 25 tables in the database
+2025-03-29 09:57:04,941 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 09:57:04,941 - INFO - Analysis completed at 2025-03-29 09:57:04.941611
+2025-03-29 09:57:04,941 - INFO - Total duration: 0:00:00.275132
+2025-03-29 10:00:08,872 - INFO - Analysis started at 2025-03-29 10:00:08.872085
+2025-03-29 10:00:09,043 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 10:00:09,044 - INFO - Found 25 tables in the database
+2025-03-29 10:00:09,148 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 10:00:09,148 - INFO - Analysis completed at 2025-03-29 10:00:09.148201
+2025-03-29 10:00:09,148 - INFO - Total duration: 0:00:00.276116
+2025-03-29 10:03:46,829 - INFO - Analysis started at 2025-03-29 10:03:46.829553
+2025-03-29 10:03:47,006 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 10:03:47,007 - INFO - Found 25 tables in the database
+2025-03-29 10:03:47,126 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 10:03:47,126 - INFO - Analysis completed at 2025-03-29 10:03:47.126458
+2025-03-29 10:03:47,126 - INFO - Total duration: 0:00:00.296905
+2025-03-29 10:06:08,341 - INFO - Analysis started at 2025-03-29 10:06:08.341256
+2025-03-29 10:06:08,511 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 10:06:08,513 - INFO - Found 25 tables in the database
+2025-03-29 10:06:08,621 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 10:06:08,621 - INFO - Analysis completed at 2025-03-29 10:06:08.621127
+2025-03-29 10:06:08,621 - INFO - Total duration: 0:00:00.279871
+2025-03-29 10:11:18,102 - INFO - Analysis started at 2025-03-29 10:11:18.101987
+2025-03-29 10:11:18,282 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 10:11:18,283 - INFO - Found 25 tables in the database
+2025-03-29 10:11:18,385 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 10:11:18,385 - INFO - Analysis completed at 2025-03-29 10:11:18.385285
+2025-03-29 10:11:18,385 - INFO - Total duration: 0:00:00.283298
+2025-03-29 10:15:13,155 - INFO - Analysis started at 2025-03-29 10:15:13.155478
+2025-03-29 10:15:13,326 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 10:15:13,327 - INFO - Found 25 tables in the database
+2025-03-29 10:15:13,428 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 10:15:13,428 - INFO - Analysis completed at 2025-03-29 10:15:13.428803
+2025-03-29 10:15:13,428 - INFO - Total duration: 0:00:00.273325
+2025-03-29 10:15:51,019 - INFO - Analysis started at 2025-03-29 10:15:51.019509
+2025-03-29 10:15:51,192 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 10:15:51,194 - INFO - Found 25 tables in the database
+2025-03-29 10:15:51,287 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 10:15:51,287 - INFO - Analysis completed at 2025-03-29 10:15:51.287636
+2025-03-29 10:15:51,287 - INFO - Total duration: 0:00:00.268127
+2025-03-29 10:18:55,381 - INFO - Analysis started at 2025-03-29 10:18:55.381270
+2025-03-29 10:18:55,560 - INFO - Connected to Access database: .\cpakdb.accdb
+2025-03-29 10:18:55,561 - INFO - Found 25 tables in the database
+2025-03-29 10:18:55,662 - INFO - Generated JSON report: ./migration_output\analysis\tables.json
+2025-03-29 10:18:55,663 - INFO - Analysis completed at 2025-03-29 10:18:55.662987
+2025-03-29 10:18:55,663 - INFO - Total duration: 0:00:00.281717

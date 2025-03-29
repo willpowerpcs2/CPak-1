@@ -1,0 +1,402 @@
+2025-03-28 23:11:32,043 - INFO - Migration execution started at 2025-03-28 23:11:32.042966
+2025-03-28 23:11:32,044 - INFO - Running Database analysis...
+2025-03-28 23:11:32,078 - ERROR - Database analysis failed with error code 2
+2025-03-28 23:11:32,078 - ERROR - python: can't open file 'C:\\Users\\Owner\\CPak\\database\\analyze_access_db.py': [Errno 2] No such file or directory
+
+2025-03-28 23:11:32,079 - ERROR - Migration aborted due to analysis failure
+2025-03-28 23:19:53,381 - INFO - Migration execution started at 2025-03-28 23:19:53.381395
+2025-03-28 23:19:53,382 - INFO - Running Database analysis...
+2025-03-28 23:19:55,383 - ERROR - Database analysis failed with error code 1
+2025-03-28 23:19:55,383 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Owner\CPak\database\analyze_access_db.py", line 32, in <module>
+    analyze_database(db_file, output_dir)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Owner\CPak\database\analyze_access_db.py", line 7, in analyze_database
+    conn = pyodbc.connect(conn_str)
+pyodbc.Error: ('HY000', "[HY000] [Microsoft][ODBC Microsoft Access Driver]General error Unable to open registry key Temporary (volatile) Ace DSN for process 0x4468 Thread 0x3f20 DBC 0x64a98f08                                                              Jet'. (63) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver]General error Unable to open registry key Temporary (volatile) Ace DSN for process 0x4468 Thread 0x3f20 DBC 0x64a98f08                                                              Jet'. (63); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044); [HY000] [Microsoft][ODBC Microsoft Access Driver]General error Unable to open registry key Temporary (volatile) Ace DSN for process 0x4468 Thread 0x3f20 DBC 0x64a98f08                                                              Jet'. (63); [HY000] [Microsoft][ODBC Microsoft Access Driver]General error Unable to open registry key Temporary (volatile) Ace DSN for process 0x4468 Thread 0x3f20 DBC 0x64a98f08                                                              Jet'. (63); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)")
+
+2025-03-28 23:19:55,384 - ERROR - Migration aborted due to analysis failure
+2025-03-28 23:23:31,836 - INFO - Migration execution started at 2025-03-28 23:23:31.836955
+2025-03-28 23:23:31,837 - INFO - Running Database analysis...
+2025-03-28 23:23:32,054 - ERROR - Database analysis failed with error code 1
+2025-03-28 23:23:32,055 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Owner\CPak\database\analyze_access_db.py", line 32, in <module>
+    analyze_database(db_file, output_dir)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Owner\CPak\database\analyze_access_db.py", line 7, in analyze_database
+    conn = pyodbc.connect(conn_str)
+pyodbc.Error: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+
+2025-03-28 23:23:32,055 - ERROR - Migration aborted due to analysis failure
+2025-03-28 23:25:44,939 - INFO - Migration execution started at 2025-03-28 23:25:44.939430
+2025-03-28 23:25:44,940 - INFO - Running Database analysis...
+2025-03-28 23:25:44,967 - ERROR - Database analysis failed with error code 2
+2025-03-28 23:25:44,968 - ERROR - python: can't open file 'C:\\Users\\Owner\\CPak\\database\\analyze_access_db.py': [Errno 2] No such file or directory
+
+2025-03-28 23:25:44,968 - ERROR - Migration aborted due to analysis failure
+2025-03-28 23:29:55,679 - INFO - Migration execution started at 2025-03-28 23:29:55.679661
+2025-03-28 23:29:55,680 - INFO - Running Database analysis...
+2025-03-28 23:29:55,710 - ERROR - Database analysis failed with error code 2
+2025-03-28 23:29:55,710 - ERROR - python: can't open file 'C:\\Users\\Owner\\CPak\\database\\analyze_access_db.py': [Errno 2] No such file or directory
+
+2025-03-28 23:29:55,711 - ERROR - Migration aborted due to analysis failure
+2025-03-28 23:32:20,600 - INFO - Migration execution started at 2025-03-28 23:32:20.600162
+2025-03-28 23:32:20,600 - INFO - Running Database analysis...
+2025-03-28 23:32:26,098 - ERROR - Database analysis failed with error code 1
+2025-03-28 23:32:26,098 - ERROR - 2025-03-28 23:32:25,915 - INFO - Analysis started at 2025-03-28 23:32:25.915945
+2025-03-28 23:32:26,046 - ERROR - Error connecting to Access database: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+
+2025-03-28 23:32:26,099 - ERROR - Migration aborted due to analysis failure
+2025-03-28 23:53:49,066 - INFO - Migration execution started at 2025-03-28 23:53:49.065963
+2025-03-28 23:53:49,067 - INFO - Running Database analysis...
+2025-03-28 23:53:50,583 - ERROR - Database analysis failed with error code 1
+2025-03-28 23:53:50,584 - ERROR - 2025-03-28 23:53:49,835 - INFO - Analysis started at 2025-03-28 23:53:49.835756
+2025-03-28 23:53:50,519 - ERROR - Error connecting to Access database: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+
+2025-03-28 23:53:50,585 - ERROR - Migration aborted due to analysis failure
+2025-03-28 23:56:58,009 - INFO - Migration execution started at 2025-03-28 23:56:58.009156
+2025-03-28 23:56:58,009 - INFO - Running Database analysis...
+2025-03-28 23:56:59,112 - ERROR - Database analysis failed with error code 1
+2025-03-28 23:56:59,112 - ERROR - 2025-03-28 23:56:58,462 - INFO - Analysis started at 2025-03-28 23:56:58.462605
+2025-03-28 23:56:59,052 - ERROR - Error connecting to Access database: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+
+2025-03-28 23:56:59,113 - ERROR - Migration aborted due to analysis failure
+2025-03-29 00:04:29,300 - INFO - Migration execution started at 2025-03-29 00:04:29.299978
+2025-03-29 00:04:29,300 - INFO - Running Database analysis...
+2025-03-29 00:04:30,346 - INFO - Database analysis completed successfully
+2025-03-29 00:04:30,347 - INFO - Running Data extraction...
+2025-03-29 00:04:32,909 - INFO - Data extraction completed successfully
+2025-03-29 00:04:32,909 - INFO - Running Data import...
+2025-03-29 00:04:33,775 - ERROR - Data import failed with error code 1
+2025-03-29 00:04:33,776 - ERROR - 2025-03-29 00:04:33,668 - INFO - Data import started at 2025-03-29 00:04:33.668364
+2025-03-29 00:04:33,723 - ERROR - Error connecting to PostgreSQL database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "cpak" does not exist
+
+
+2025-03-29 00:04:33,776 - ERROR - Migration aborted due to import failure
+2025-03-29 00:06:01,028 - INFO - Migration execution started at 2025-03-29 00:06:01.028716
+2025-03-29 00:06:01,029 - INFO - Running Database analysis...
+2025-03-29 00:06:02,163 - INFO - Database analysis completed successfully
+2025-03-29 00:06:02,164 - INFO - Running Data extraction...
+2025-03-29 00:06:04,657 - INFO - Data extraction completed successfully
+2025-03-29 00:06:04,658 - INFO - Running Data import...
+2025-03-29 00:06:05,189 - ERROR - Data import failed with error code 1
+2025-03-29 00:06:05,189 - ERROR - 2025-03-29 00:06:05,080 - INFO - Data import started at 2025-03-29 00:06:05.080580
+2025-03-29 00:06:05,123 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:06:05,135 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:06:05,136 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:06:05,191 - ERROR - Migration aborted due to import failure
+2025-03-29 00:11:16,169 - INFO - Migration execution started at 2025-03-29 00:11:16.169637
+2025-03-29 00:11:16,170 - INFO - Running Database analysis...
+2025-03-29 00:11:16,987 - INFO - Database analysis completed successfully
+2025-03-29 00:11:16,987 - INFO - Running Data extraction...
+2025-03-29 00:11:19,497 - INFO - Data extraction completed successfully
+2025-03-29 00:11:19,497 - INFO - Running Data import...
+2025-03-29 00:11:20,043 - ERROR - Data import failed with error code 1
+2025-03-29 00:11:20,044 - ERROR - 2025-03-29 00:11:19,940 - INFO - Data import started at 2025-03-29 00:11:19.939996
+2025-03-29 00:11:19,983 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:11:19,993 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:11:19,993 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:11:20,045 - ERROR - Migration aborted due to import failure
+2025-03-29 00:11:51,019 - INFO - Migration execution started at 2025-03-29 00:11:51.019080
+2025-03-29 00:11:51,019 - INFO - Running Database analysis...
+2025-03-29 00:11:51,831 - INFO - Database analysis completed successfully
+2025-03-29 00:11:51,832 - INFO - Running Data extraction...
+2025-03-29 00:11:54,398 - INFO - Data extraction completed successfully
+2025-03-29 00:11:54,398 - INFO - Running Data import...
+2025-03-29 00:11:54,911 - ERROR - Data import failed with error code 1
+2025-03-29 00:11:54,912 - ERROR - 2025-03-29 00:11:54,808 - INFO - Data import started at 2025-03-29 00:11:54.808332
+2025-03-29 00:11:54,851 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:11:54,859 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:11:54,859 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:11:54,913 - ERROR - Migration aborted due to import failure
+2025-03-29 00:14:54,898 - INFO - Migration execution started at 2025-03-29 00:14:54.898507
+2025-03-29 00:14:54,899 - INFO - Running Database analysis...
+2025-03-29 00:14:55,707 - INFO - Database analysis completed successfully
+2025-03-29 00:14:55,707 - INFO - Running Data extraction...
+2025-03-29 00:14:58,210 - INFO - Data extraction completed successfully
+2025-03-29 00:14:58,210 - INFO - Running Data import...
+2025-03-29 00:14:58,734 - ERROR - Data import failed with error code 1
+2025-03-29 00:14:58,734 - ERROR - 2025-03-29 00:14:58,626 - INFO - Data import started at 2025-03-29 00:14:58.626441
+2025-03-29 00:14:58,669 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:14:58,682 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:14:58,683 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:14:58,736 - ERROR - Migration aborted due to import failure
+2025-03-29 00:20:20,493 - INFO - Migration execution started at 2025-03-29 00:20:20.493211
+2025-03-29 00:20:20,493 - INFO - Running Data import...
+2025-03-29 00:20:21,034 - ERROR - Data import failed with error code 1
+2025-03-29 00:20:21,034 - ERROR - 2025-03-29 00:20:20,939 - INFO - Data import started at 2025-03-29 00:20:20.939634
+2025-03-29 00:20:20,981 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:20:20,981 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 00:20:20,981 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:20:21,036 - ERROR - Migration aborted due to import failure
+2025-03-29 00:20:56,587 - INFO - Migration execution started at 2025-03-29 00:20:56.587533
+2025-03-29 00:20:56,588 - INFO - Running Data import...
+2025-03-29 00:20:57,103 - ERROR - Data import failed with error code 1
+2025-03-29 00:20:57,104 - ERROR - 2025-03-29 00:20:57,009 - INFO - Data import started at 2025-03-29 00:20:57.009438
+2025-03-29 00:20:57,052 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:20:57,052 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 00:20:57,052 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:20:57,105 - ERROR - Migration aborted due to import failure
+2025-03-29 00:21:53,239 - INFO - Migration execution started at 2025-03-29 00:21:53.239660
+2025-03-29 00:21:53,240 - INFO - Running Data import...
+2025-03-29 00:21:53,768 - ERROR - Data import failed with error code 1
+2025-03-29 00:21:53,768 - ERROR - 2025-03-29 00:21:53,675 - INFO - Data import started at 2025-03-29 00:21:53.675032
+2025-03-29 00:21:53,717 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:21:53,717 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 00:21:53,717 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:21:53,770 - ERROR - Migration aborted due to import failure
+2025-03-29 00:22:13,517 - INFO - Migration execution started at 2025-03-29 00:22:13.517204
+2025-03-29 00:22:13,517 - INFO - Running Data import...
+2025-03-29 00:22:14,029 - ERROR - Data import failed with error code 1
+2025-03-29 00:22:14,030 - ERROR - 2025-03-29 00:22:13,936 - INFO - Data import started at 2025-03-29 00:22:13.936917
+2025-03-29 00:22:13,978 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:22:13,978 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 00:22:13,979 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:22:14,031 - ERROR - Migration aborted due to import failure
+2025-03-29 00:23:06,264 - INFO - Migration execution started at 2025-03-29 00:23:06.264763
+2025-03-29 00:23:06,265 - INFO - Running Database analysis...
+2025-03-29 00:23:07,083 - INFO - Database analysis completed successfully
+2025-03-29 00:23:07,084 - INFO - Running Data extraction...
+2025-03-29 00:23:09,587 - INFO - Data extraction completed successfully
+2025-03-29 00:23:09,587 - INFO - Running Data import...
+2025-03-29 00:23:10,099 - ERROR - Data import failed with error code 1
+2025-03-29 00:23:10,100 - ERROR - 2025-03-29 00:23:09,996 - INFO - Data import started at 2025-03-29 00:23:09.996729
+2025-03-29 00:23:10,040 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 00:23:10,049 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 00:23:10,049 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 00:23:10,101 - ERROR - Migration aborted due to import failure
+2025-03-29 09:35:21,780 - INFO - Migration execution started at 2025-03-29 09:35:21.780382
+2025-03-29 09:35:21,781 - INFO - Running Database analysis...
+2025-03-29 09:35:25,348 - ERROR - Database analysis failed with error code 1
+2025-03-29 09:35:25,348 - ERROR - 2025-03-29 09:35:24,722 - INFO - Analysis started at 2025-03-29 09:35:24.722246
+2025-03-29 09:35:25,284 - ERROR - Error connecting to Access database: ('HY000', '[HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044) (SQLDriverConnect); [HY000] [Microsoft][ODBC Microsoft Access Driver] Not a valid file name. (-1044)')
+
+2025-03-29 09:35:25,350 - ERROR - Migration aborted due to analysis failure
+2025-03-29 09:36:22,181 - INFO - Migration execution started at 2025-03-29 09:36:22.181118
+2025-03-29 09:36:22,181 - INFO - Running Database analysis...
+2025-03-29 09:36:23,042 - INFO - Database analysis completed successfully
+2025-03-29 09:36:23,042 - INFO - Running Data extraction...
+2025-03-29 09:36:25,603 - INFO - Data extraction completed successfully
+2025-03-29 09:36:25,604 - INFO - Running Data import...
+2025-03-29 09:36:26,472 - ERROR - Data import failed with error code 1
+2025-03-29 09:36:26,472 - ERROR - 2025-03-29 09:36:26,370 - INFO - Data import started at 2025-03-29 09:36:26.370225
+2025-03-29 09:36:26,423 - ERROR - Error connecting to PostgreSQL database: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+
+2025-03-29 09:36:26,473 - ERROR - Migration aborted due to import failure
+2025-03-29 09:36:40,921 - INFO - Migration execution started at 2025-03-29 09:36:40.921365
+2025-03-29 09:36:40,922 - INFO - Running Database analysis...
+2025-03-29 09:36:41,729 - INFO - Database analysis completed successfully
+2025-03-29 09:36:41,729 - INFO - Running Data extraction...
+2025-03-29 09:36:44,220 - INFO - Data extraction completed successfully
+2025-03-29 09:36:44,221 - INFO - Running Data import...
+2025-03-29 09:36:44,741 - ERROR - Data import failed with error code 1
+2025-03-29 09:36:44,742 - ERROR - 2025-03-29 09:36:44,626 - INFO - Data import started at 2025-03-29 09:36:44.626683
+2025-03-29 09:36:44,676 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:36:44,690 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 09:36:44,690 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 09:36:44,743 - ERROR - Migration aborted due to import failure
+2025-03-29 09:43:30,128 - INFO - Migration execution started at 2025-03-29 09:43:30.128557
+2025-03-29 09:43:30,129 - INFO - Running Database analysis...
+2025-03-29 09:43:30,899 - INFO - Database analysis completed successfully
+2025-03-29 09:43:30,899 - INFO - Running Data extraction...
+2025-03-29 09:43:33,374 - INFO - Data extraction completed successfully
+2025-03-29 09:43:33,375 - INFO - Running Data import...
+2025-03-29 09:43:33,900 - ERROR - Data import failed with error code 1
+2025-03-29 09:43:33,901 - ERROR - 2025-03-29 09:43:33,797 - INFO - Data import started at 2025-03-29 09:43:33.797471
+2025-03-29 09:43:33,845 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:43:33,847 - ERROR - Error executing schema file: syntax error at or near "names"
+LINE 5: CREATE TABLE city names (
+                          ^
+
+2025-03-29 09:43:33,847 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 09:43:33,902 - ERROR - Migration aborted due to import failure
+2025-03-29 09:53:17,448 - INFO - Migration execution started at 2025-03-29 09:53:17.448009
+2025-03-29 09:53:17,448 - INFO - Running Data import...
+2025-03-29 09:53:17,959 - ERROR - Data import failed with error code 1
+2025-03-29 09:53:17,959 - ERROR - 2025-03-29 09:53:17,866 - INFO - Data import started at 2025-03-29 09:53:17.866650
+2025-03-29 09:53:17,907 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:53:17,907 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 09:53:17,908 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 09:53:17,960 - ERROR - Migration aborted due to import failure
+2025-03-29 09:54:43,984 - INFO - Migration execution started at 2025-03-29 09:54:43.984671
+2025-03-29 09:54:43,985 - INFO - Running Data import...
+2025-03-29 09:54:44,511 - ERROR - Data import failed with error code 1
+2025-03-29 09:54:44,512 - ERROR - 2025-03-29 09:54:44,413 - INFO - Data import started at 2025-03-29 09:54:44.413151
+2025-03-29 09:54:44,458 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:54:44,458 - ERROR - Error executing schema file: [Errno 2] No such file or directory: './migration_output/extracted_data/schema.sql'
+2025-03-29 09:54:44,459 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 09:54:44,513 - ERROR - Migration aborted due to import failure
+2025-03-29 09:54:57,203 - INFO - Migration execution started at 2025-03-29 09:54:57.203859
+2025-03-29 09:54:57,204 - INFO - Running Database analysis...
+2025-03-29 09:54:57,955 - INFO - Database analysis completed successfully
+2025-03-29 09:54:57,955 - INFO - Running Data extraction...
+2025-03-29 09:55:00,469 - INFO - Data extraction completed successfully
+2025-03-29 09:55:00,469 - INFO - Running Data import...
+2025-03-29 09:55:01,019 - ERROR - Data import failed with error code 1
+2025-03-29 09:55:01,020 - ERROR - 2025-03-29 09:55:00,893 - INFO - Data import started at 2025-03-29 09:55:00.893554
+2025-03-29 09:55:00,939 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:55:00,964 - ERROR - Error executing schema file: type "datetime" does not exist
+LINE 13:     zoning_date DATETIME,
+                         ^
+
+2025-03-29 09:55:00,964 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 09:55:01,021 - ERROR - Migration aborted due to import failure
+2025-03-29 09:57:04,268 - INFO - Migration execution started at 2025-03-29 09:57:04.267971
+2025-03-29 09:57:04,268 - INFO - Running Database analysis...
+2025-03-29 09:57:04,996 - INFO - Database analysis completed successfully
+2025-03-29 09:57:04,997 - INFO - Running Data extraction...
+2025-03-29 09:57:07,483 - INFO - Data extraction completed successfully
+2025-03-29 09:57:07,483 - INFO - Running Data import...
+2025-03-29 09:57:08,021 - ERROR - Data import failed with error code 1
+2025-03-29 09:57:08,022 - ERROR - 2025-03-29 09:57:07,894 - INFO - Data import started at 2025-03-29 09:57:07.894271
+2025-03-29 09:57:07,939 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 09:57:07,971 - ERROR - Error executing schema file: relation "idx_company_name" already exists
+
+2025-03-29 09:57:07,971 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 09:57:08,023 - ERROR - Migration aborted due to import failure
+2025-03-29 10:00:08,473 - INFO - Migration execution started at 2025-03-29 10:00:08.473501
+2025-03-29 10:00:08,474 - INFO - Running Database analysis...
+2025-03-29 10:00:09,203 - INFO - Database analysis completed successfully
+2025-03-29 10:00:09,203 - INFO - Running Data extraction...
+2025-03-29 10:00:11,698 - INFO - Data extraction completed successfully
+2025-03-29 10:00:11,699 - INFO - Schema file ./migration_output\analysis\sql\schema.sql updated with 'IF NOT EXISTS' for indexes.
+2025-03-29 10:00:11,700 - INFO - Running Data import...
+2025-03-29 10:00:12,236 - ERROR - Data import failed with error code 1
+2025-03-29 10:00:12,236 - ERROR - 2025-03-29 10:00:12,105 - INFO - Data import started at 2025-03-29 10:00:12.105775
+2025-03-29 10:00:12,149 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:00:12,181 - ERROR - Error executing schema file: length for type varchar cannot exceed 10485760
+LINE 225:     information VARCHAR(1073741823),
+                          ^
+
+2025-03-29 10:00:12,181 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 10:00:12,237 - ERROR - Migration aborted due to import failure
+2025-03-29 10:03:46,432 - INFO - Migration execution started at 2025-03-29 10:03:46.432435
+2025-03-29 10:03:46,433 - INFO - Running Database analysis...
+2025-03-29 10:03:47,180 - INFO - Database analysis completed successfully
+2025-03-29 10:03:47,180 - INFO - Running Data extraction...
+2025-03-29 10:03:49,706 - INFO - Data extraction completed successfully
+2025-03-29 10:03:49,707 - INFO - Schema file ./migration_output\analysis\sql\schema.sql updated with 'IF NOT EXISTS' for indexes.
+2025-03-29 10:03:49,733 - INFO - Schema file ./migration_output\analysis\sql\schema.sql updated to use VARCHAR(10485760) for large VARCHAR fields.
+2025-03-29 10:03:49,734 - INFO - Running Data import...
+2025-03-29 10:03:50,254 - ERROR - Data import failed with error code 1
+2025-03-29 10:03:50,254 - ERROR - 2025-03-29 10:03:50,152 - INFO - Data import started at 2025-03-29 10:03:50.152901
+2025-03-29 10:03:50,197 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:03:50,204 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS idx_company_name ON...
+                                       ^
+
+2025-03-29 10:03:50,205 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 10:03:50,255 - ERROR - Migration aborted due to import failure
+2025-03-29 10:06:07,926 - INFO - Migration execution started at 2025-03-29 10:06:07.926922
+2025-03-29 10:06:07,927 - INFO - Running Database analysis...
+2025-03-29 10:06:08,681 - INFO - Database analysis completed successfully
+2025-03-29 10:06:08,682 - INFO - Running Data extraction...
+2025-03-29 10:06:11,189 - INFO - Data extraction completed successfully
+2025-03-29 10:06:11,190 - INFO - Schema file ./migration_output\analysis\sql\schema.sql updated with 'IF NOT EXISTS' for indexes.
+2025-03-29 10:06:11,214 - INFO - Schema file ./migration_output\analysis\sql\schema.sql updated to use VARCHAR(10485760) for large VARCHAR fields.
+2025-03-29 10:06:11,214 - INFO - Running Data import...
+2025-03-29 10:06:11,727 - ERROR - Data import failed with error code 1
+2025-03-29 10:06:11,728 - ERROR - 2025-03-29 10:06:11,628 - INFO - Data import started at 2025-03-29 10:06:11.628359
+2025-03-29 10:06:11,670 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:06:11,678 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS IF NOT EXISTS idx_c...
+                                       ^
+
+2025-03-29 10:06:11,678 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 10:06:11,729 - ERROR - Migration aborted due to import failure
+2025-03-29 10:11:17,639 - INFO - Migration execution started at 2025-03-29 10:11:17.639852
+2025-03-29 10:11:17,640 - INFO - Running Database analysis...
+2025-03-29 10:11:18,441 - INFO - Database analysis completed successfully
+2025-03-29 10:11:18,441 - INFO - Running Data extraction...
+2025-03-29 10:11:21,036 - INFO - Data extraction completed successfully
+2025-03-29 10:11:21,038 - INFO - Schema file ./migration_output\analysis\sql\schema.sql updated with 'IF NOT EXISTS' for indexes.
+2025-03-29 10:11:21,061 - INFO - Schema file ./migration_output\analysis\sql\schema.sql updated to use VARCHAR(10485760) for large VARCHAR fields.
+2025-03-29 10:11:21,061 - INFO - Running Data import...
+2025-03-29 10:11:21,595 - ERROR - Data import failed with error code 1
+2025-03-29 10:11:21,595 - ERROR - 2025-03-29 10:11:21,489 - INFO - Data import started at 2025-03-29 10:11:21.489783
+2025-03-29 10:11:21,532 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:11:21,541 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS IF NOT EXISTS IF NO...
+                                       ^
+
+2025-03-29 10:11:21,541 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 10:11:21,596 - ERROR - Migration aborted due to import failure
+2025-03-29 10:15:12,751 - INFO - Migration execution started at 2025-03-29 10:15:12.751410
+2025-03-29 10:15:12,752 - INFO - Running Database analysis...
+2025-03-29 10:15:13,483 - INFO - Database analysis completed successfully
+2025-03-29 10:15:13,483 - INFO - Running Data extraction...
+2025-03-29 10:15:15,961 - INFO - Data extraction completed successfully
+2025-03-29 10:15:15,962 - INFO - Running Data import...
+2025-03-29 10:15:16,466 - ERROR - Data import failed with error code 1
+2025-03-29 10:15:16,466 - ERROR - 2025-03-29 10:15:16,370 - INFO - Data import started at 2025-03-29 10:15:16.370016
+2025-03-29 10:15:16,415 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:15:16,416 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS IF NOT EXISTS IF NO...
+                                       ^
+
+2025-03-29 10:15:16,417 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 10:15:16,467 - ERROR - Migration aborted due to import failure
+2025-03-29 10:15:50,600 - INFO - Migration execution started at 2025-03-29 10:15:50.600729
+2025-03-29 10:15:50,601 - INFO - Running Database analysis...
+2025-03-29 10:15:51,348 - INFO - Database analysis completed successfully
+2025-03-29 10:15:51,348 - INFO - Running Data extraction...
+2025-03-29 10:15:53,833 - INFO - Data extraction completed successfully
+2025-03-29 10:15:53,833 - INFO - Running Data import...
+2025-03-29 10:15:54,345 - ERROR - Data import failed with error code 1
+2025-03-29 10:15:54,345 - ERROR - 2025-03-29 10:15:54,249 - INFO - Data import started at 2025-03-29 10:15:54.249467
+2025-03-29 10:15:54,292 - INFO - Connected to PostgreSQL database: cpak on localhost:5432
+2025-03-29 10:15:54,294 - ERROR - Error executing schema file: syntax error at or near "NOT"
+LINE 65: CREATE INDEX IF NOT EXISTS IF NOT EXISTS IF NOT EXISTS IF NO...
+                                       ^
+
+2025-03-29 10:15:54,294 - ERROR - Failed to execute schema file. Aborting import.
+
+2025-03-29 10:15:54,347 - ERROR - Migration aborted due to import failure
+2025-03-29 10:18:54,955 - INFO - Migration execution started at 2025-03-29 10:18:54.955435
+2025-03-29 10:18:54,956 - INFO - Running Database analysis...
+2025-03-29 10:18:55,717 - INFO - Database analysis completed successfully
+2025-03-29 10:18:55,718 - INFO - Running Data extraction...
+2025-03-29 10:18:58,210 - INFO - Data extraction completed successfully
+2025-03-29 10:18:58,210 - INFO - Running Data import...
+2025-03-29 10:19:01,012 - INFO - Data import completed successfully
+2025-03-29 10:19:01,012 - INFO - Migration execution completed at 2025-03-29 10:19:01.012615
+2025-03-29 10:19:01,013 - INFO - Total duration: 0:00:06.057180
